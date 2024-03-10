@@ -1,756 +1,1777 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title style=" font-family: 'Sora'; font-weight: 700;">Aritofolio</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+  <head>
+    <meta charset="utf-8" />
+    <title style="font-family: 'Sora'; font-weight: 700">Aritofolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <!-- Aritra Basu's commit -->
+    <!-- Favicons -->
+    <link href="logo/Logo.png" rel="icon" />
 
-  <!-- Favicons -->
-  <link href="logo/Logo.png" rel="icon">
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet" />
+    <link href="lib/hover/hover.min.css" rel="stylesheet" />
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-  <link href="lib/hover/hover.min.css" rel="stylesheet">
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/style_1.css" rel="stylesheet" />
 
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/style_1.css" rel="stylesheet">
+    <!-- Responsive css -->
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
 
-  <!-- Responsive css -->
-  <link href="css/responsive.css" rel="stylesheet">
-
-</head>
-
-<body id="page-top" style="margin-right: 0; background-color: black;">
-
-  <!--/ Nav Star /-->
-  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav" style="background-color: black;">
-    <div class="container">
-      <a class="navbar-brand js-scroll" style="color: white;" href="#page-top"><img src="logo/Logo.png" alt="Aritra Ghosh" class="img-fluid" style="height: 40px; width: 40px;
-" /></a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
-        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll active" style="color: white; font-family: 'Sora'; font-weight: 700;" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" style="color: white; font-family: 'Sora'; font-weight: 700;" style="color: white;" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" style="color: white; font-family: 'Sora'; font-weight: 700;" href="#service">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" style="color: white; font-family: 'Sora'; font-weight: 700;" href="#work">Work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" style="color: white; font-family: 'Sora'; font-weight: 700;" href="#blog">Clients</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" style="color: white; font-family: 'Sora'; font-weight: 700;" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!--/ Nav End /-->
-
-  <!--/ Intro Skew Star /-->
-  
-  <video id="background-video" autoplay loop muted>
-    <source src="img/vid_1.mp4" type="video/mp4" />
-  </video>
-  <div id="home" class="intro route bg-image">
-    <div class="overlay-itro"></div>
-    <div class="intro-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <h1 class="intro-title mb-4" style=" font-family: 'Sora'; font-weight: 800;">I am Aritra Ghosh</h1>
-          <p class="intro-subtitle"><span class="text-slider-items" style=" font-family: 'Sora'; font-weight: 700;">3D Generalist,3D Visualizer,3D Environment Artist,3D Texture Artist,Graphic Designer</span><strong class="text-slider"></strong></p>
+  <body id="page-top" style="margin-right: 0; background-color: black">
+    <!--/ Nav Star /-->
+    <nav
+      class="navbar navbar-b navbar-trans navbar-expand-md fixed-top"
+      id="mainNav"
+      style="background-color: black"
+    >
+      <div class="container">
+        <a class="navbar-brand js-scroll" style="color: white" href="#page-top"
+          ><img
+            src="logo/Logo.png"
+            alt="Aritra Ghosh"
+            class="img-fluid"
+            style="height: 40px; width: 40px"
+        /></a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarDefault"
+          aria-controls="navbarDefault"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div
+          class="navbar-collapse collapse justify-content-end"
+          id="navbarDefault"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link js-scroll active"
+                style="color: white; font-family: 'Sora'; font-weight: 700"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link js-scroll"
+                style="color: white; font-family: 'Sora'; font-weight: 700"
+                style="color: white"
+                href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link js-scroll"
+                style="color: white; font-family: 'Sora'; font-weight: 700"
+                href="#service"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link js-scroll"
+                style="color: white; font-family: 'Sora'; font-weight: 700"
+                href="#work"
+                >Work</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link js-scroll"
+                style="color: white; font-family: 'Sora'; font-weight: 700"
+                href="#blog"
+                >Clients</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link js-scroll"
+                style="color: white; font-family: 'Sora'; font-weight: 700"
+                href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </div>
-  <!--/ Intro Skew End /-->
+    </nav>
+    <!--/ Nav End /-->
 
-  <section id="about" class="about-mf sect-pt4 route" style="background-attachment: local; background-image: url(bg_img/background1_2k_opt.jpg);">
-    <div class="container" style="position: relative; display: flex;">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full glass" style="margin-bottom: 155px;"> 
-            <div class="row">
-              <div class="col-md-6">
-                <div class="">
-                  <div class="col-sm-6 col-md-5" style="align-items: center;"> <!-- col-sm-6 col-md-5 -->
-                    <div class="about-img">
-                      <img src="bg_img/DP_bw_2.png" class="img-fluid rounded b-shadow-a" style="border-radius: 50%;" alt="">
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-md-12" style="margin-right: 0;"> <!-- col-sm-6 col-md-7 -->
-                    <div class="about-info" style="font-family: 'Sora';">
-                      <p><span class="title-s" style="color: #343434; font-weight: 600; font-size: 16px;">Name: </span> <span style="color: #343434; font-size: 16px; font-weight: 400;">Aritra Ghosh</span></p>
+    <!--/ Intro Skew Star /-->
 
-                      <p><span class="title-s" style="color: #343434; font-weight: 600; font-size: 16px;">Profile: </span> <span style="color: #343434; font-size: 16px; font-weight: 400;">3D Generalist</span></p>
-
-                      <p><span class="title-s" style="color: #343434; font-weight: 600; font-size: 16px;">Email: </span> <span style="color: #343434; font-size: 16px; font-weight: 400;">arimanav007@gmail.com</span></p>
-
-                      <p><span class="title-s" style="color: #343434; font-weight: 600; font-size: 16px;">Phone: </span> <span style="color: #343434; font-size: 16px; font-weight: 400;">+91 877694465</span></p>
-
-                    </div>
-                  </div>
-                </div>
-
-                <div style="padding-left: 10px; position: absolute; bottom: 0;">
-                  <a href="./assets/cv.pdf" download="" target="_blank">
-                    <button id="btnCV" type="submit" style="background-color: rgba(26, 26, 26, 0.658); border-radius: 20px; height: 50px; width: 170px;">
-                      <div style="position: relative; padding-left: 0;" class="flex flex-row">
-                        <img  src="icons/dwnld_2.png" alt=""/>
-                        <span style="font-family: 'Sora'; font-weight: 600; color: white;">Download CV</span>
-                      </div>
-                    </button>
-                  </a>
-                </div>
-
-              </div>
-              <div class="col-md-6">
-                <div class="about-me pt-4 pt-md-0">
-                  <div class="title-box-2">
-                    <h5 class="title-left" style="text-align: center; font-family: 'Sora'; font-weight: 600;">
-                      About me
-                    </h5>
-                  </div>
-                  <p class="lead" style="font-size: 15px; text-align: center; color: #343434; font-family: 'Sora'; font-weight: 400;">
-                    I am a self-trained and highly enthusiastic 3D artist who specializes in photorealistic rendering and environment design, as well as Physically Based Rendering (PBR) workflows for creating game assets. My career has also enabled me to become a skilled 3D visualizer, who enjoys creating product animations with captivating CGI backgrounds and color compositions.
-                  </p>
-                  <p class="lead" style="font-size: 15px; text-align: center; color: #343434; font-family: 'Sora'; font-weight: 400;">
-                    Currently, I work at Wow Labz as a 3D Generalist, contributing to the creation of immersive and visually captivating content. My diverse skill set, developed through self-directed education, enables me to provide cutting-edge solutions and ensure a high level of quality in all of my projects. My expertise spans across a broad range of software tools, such as Blender; 3ds Max; Unreal Engine 5; Unity; various Substance software; Premiere Pro; Photoshop; ZBrush; and more.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <div class="testimonials paralax-mf bg-image" style="background-image: url(bg_img/ssbg_opt.jpg)">
-    <div class="overlay-mf"></div>
-
-    <div class="container" style="margin-top: 10px;">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center" style="margin-bottom: 30px;">
-            <h3 class="title-a" style="color: white; font-family: 'Sora'; font-weight: 700;">
-              Skills & Experinces
-            </h3>
-            <div class="line-mf" style="color: white;"></div>
+    <video id="background-video" autoplay loop muted>
+      <source src="img/vid_1.mp4" type="video/mp4" />
+    </video>
+    <div id="home" class="intro route bg-image">
+      <div class="overlay-itro"></div>
+      <div class="intro-content display-table">
+        <div class="table-cell">
+          <div class="container">
+            <h1
+              class="intro-title mb-4"
+              style="font-family: 'Sora'; font-weight: 800"
+            >
+              I am Aritra Ghosh
+            </h1>
+            <p class="intro-subtitle">
+              <span
+                class="text-slider-items"
+                style="font-family: 'Sora'; font-weight: 700"
+                >3D Generalist,3D Visualizer,3D Environment Artist,3D Texture
+                Artist,Graphic Designer</span
+              ><strong class="text-slider"></strong>
+            </p>
           </div>
         </div>
       </div>
     </div>
+    <!--/ Intro Skew End /-->
 
-    <div class="container reveal">
-      <div class="row">
-        <div class="col-md-12">
-          <div id="testimonial-mf" class="owl-carousel owl-theme">
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="icons/Blender_logo.png" style="height: 300px; width: 300px;" alt="" class="rounded-circle b-shadow-a">
-                <span class="author" style="font-family: 'Sora'; font-weight: 600;">Blender</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead" style="font-family: 'Sora'; font-weight: 400;">
-                  Modelling, Shading, Animation and Lighting Skills for photo-realistic rendering and environment creation/exporting assets for game engines.
-                </p>
-              </div>
-            </div>
-
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="icons/3dsmax.png" style="height: 300px; width: 300px;" alt="" class="rounded-circle b-shadow-a">
-                <span class="author" style="font-family: 'Sora'; font-weight: 600;">3ds Max</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead" style="font-family: 'Sora'; font-weight: 400;">
-                  Hard Surface Modelling, Photo-Realistic Rendering and Exporting assets for game engines.
-                </p>
-              </div>
-            </div>
-
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="icons/Zbrush.png" style="height: 300px; width: 300px;" alt="" class="rounded-circle b-shadow-a">
-                <span class="author" style="font-family: 'Sora'; font-weight: 600;">Z Brush</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead" style="font-family: 'Sora'; font-weight: 400;">
-                  3D Sculpting, Surface detailing work (Trim Sheets) for baked texture maps.
-                </p>
-              </div>
-            </div>
-
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="icons/substance.png" style="height: 300px; width: 300px;" alt="" class="rounded-circle b-shadow-a">
-                <span class="author" style="font-family: 'Sora'; font-weight: 600;">Substance Texturing Suite</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead" style="font-family: 'Sora'; font-weight: 400;">
-                  PBR texture creation, Procedural Material Creation, Photograph to texture creation.
-                </p>
-              </div>
-            </div>
-
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="icons/photoshop.png" style="height: 300px; width: 300px;" alt="" class="rounded-circle b-shadow-a">
-                <span class="author" style="font-family: 'Sora'; font-weight: 600;">Adobe Photoshop</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead" style="font-family: 'Sora'; font-weight: 400;">
-                  Graphic design, Texture creation.
-                </p>
-              </div>
-            </div>
-
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="icons/premiere.png" style="height: 300px; width: 300px;" alt="" class="rounded-circle b-shadow-a">
-                <span class="author" style="font-family: 'Sora'; font-weight: 600;">Adobe Premiere Pro</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead" style="font-family: 'Sora'; font-weight: 400;">
-                  Video Editting, Color Grading.
-                </p>
-              </div>
-            </div>
-
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="icons/MD_logo.png" style="height: 300px; width: 300px;" alt="" class="rounded-circle b-shadow-a">
-                <span class="author" style="font-family: 'Sora'; font-weight: 600;">Marvelous Designer</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead" style="font-family: 'Sora'; font-weight: 400;">
-                  Character Clothing Creation.
-                </p>
-              </div>
-            </div>
-
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="icons/unreal.png" style="height: 300px; width: 300px;" alt="" class="rounded-circle b-shadow-a">
-                <span class="author" style="font-family: 'Sora'; font-weight: 600;">Unreal Engine</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead" style="font-family: 'Sora'; font-weight: 400;">
-                  Environment building, Blueprints, Shaders, Lighting, Control Rigs.
-                </p>
-              </div>
-            </div>
-
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="icons/unity.png" style="height: 300px; width: 300px;" alt="" class="rounded-circle b-shadow-a">
-                <span class="author" style="font-family: 'Sora'; font-weight: 600;">Unity</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead" style="font-family: 'Sora'; font-weight: 400;">
-                  Environment building, Shaders, Lighting.
-                </p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--/ Section Services Star /-->
-  <section id="service" class="services-mf route" style="background-image: url(bg_img/Services_bg2_opt.jpg); padding-top: 30px;">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a" style="color: white; font-family: 'Sora'; font-weight: 700;">
-              Services
-            </h3>
-            <div class="line-mf" style="color: white;"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="tilting-card-content">
-            <div class="service-box" style="background-image: url(bg_img/Scbg_opt.jpg);">
-              <div class="service-ico">
-                <span class="ico-circle"><i class=""><img src="icons/3d-model2.png" alt="" class="img-fluid" style="height: 64px; width: 64px;"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title" style="color: black; font-family: 'Sora'; font-weight: 600;">3D Modelling</h2>
-                <p class="s-description text-center" style="color: black; font-family: 'Sora'; font-weight: 400;">
-                  Poly-modelling, Topology Optimization, Maintaining Edge Flow, Hard Surface Modelling (boolean operations), Experience with extra modelling addons and modifiers stack.
-                </p>
-              </div>
-            </div>
-
-            <div class="mouse-position-tracker">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="tilting-card-content">
-            <div class="service-box" style="background-image: url(bg_img/Scbg_opt.jpg);">
-              <div class="service-ico">
-                <span class="ico-circle"><i class=""><img src="icons/Tex_icon.png" alt="" class="img-fluid"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title" style="font-family: 'Sora'; font-weight: 600;">3D Texturing</h2>
-                <p class="s-description text-center" style="font-family: 'Sora'; font-weight: 400;">
-                   3D PBR Texturing with Substance Painter, Experience with capturing real world details with Substance Sampler and Procedural Material Creation with Substance Designer
-                </p>
-              </div>
-            </div>
-
-            <div class="mouse-position-tracker">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-md-4">
-          <div class="tilting-card-content">
-            <div class="service-box" style="background-image: url(bg_img/Scbg_opt.jpg);">
-              <div class="service-ico">
-                <span class="ico-circle"><i class=""><img src="icons/Ren_Icon.png" alt="" class="img-fluid"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title" style="font-family: 'Sora'; font-weight: 600;">3D Rendering</h2>
-                <p class="s-description text-center" style="font-family: 'Sora'; font-weight: 400;">
-                  Ability to create Photo-realistic/Cinematic Rendering. Experience with Rendering Engines like Cycles, Arnold, V-ray.<br><br>
-                </p>
-              </div>
-            </div>
-
-            <div class="mouse-position-tracker">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-md-4">
-          <div class="tilting-card-content">
-            <div class="service-box" style="background-image: url(bg_img/Scbg_opt.jpg);">
-              <div class="service-ico">
-                <span class="ico-circle"><i class=""><img src="icons/Vedit_icon.png" alt="" class="img-fluid"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title" style="font-family: 'Sora'; font-weight: 600;">Video Editing</h2>
-                <p class="s-description text-center" style="font-family: 'Sora'; font-weight: 400;">
-                  Standard Video Editing skills along with Cinematic Luts and Color Grading.<br><br><br><br>
-                </p>
-              </div>
-            </div>
-
-            <div class="mouse-position-tracker">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-md-4">
-          <div class="tilting-card-content">
-            <div class="service-box" style="background-image: url(bg_img/Scbg_opt.jpg);">
-              <div class="service-ico">
-                <span class="ico-circle"><i class=""><img src="icons/GD_icon.png" alt="" class="img-fluid"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title" style="font-family: 'Sora'; font-weight: 600;">Graphic Design</h2>
-                <p class="s-description text-center" style="font-family: 'Sora'; font-weight: 400;">
-                  Photoshop Masking Techniques, Pattern Generation, Card Designs, Postprocessing Images.<br><br><br>
-                </p>
-              </div>
-            </div>
-
-            <div class="mouse-position-tracker">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-md-4">
-          <div class="tilting-card-content">
-            <div class="service-box" style="background-image: url(bg_img/Scbg_opt.jpg);">
-              <div class="service-ico">
-                <span class="ico-circle"><i class=""><img src="icons/photo_icon.png" alt="" class="img-fluid"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title" style="font-family: 'Sora'; font-weight: 600;">Photography</h2>
-                <p class="s-description text-center" style="font-family: 'Sora'; font-weight: 400;">
-                  Scene Composition, Lighting , Product Shoots, Model shoots.<br><br><br><br>
-                </p>
-              </div>
-            </div>
-
-            <div class="mouse-position-tracker">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-    </div>
-  </section>
-  <!--/ Section Services End /-->
-
-  <div class="section-counter paralax-mf bg-image" style="background-image: url(img/counters-bg.jpg);">
-    <div class="overlay-mf"></div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4 col-lg-4"> <!-- col-sm-3 col-lg-3 -->
-          <div class="counter-box" >
-            <div class="counter-ico" style="margin-bottom: 0px;">
-              <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
-            </div>
-            <div class="counter-num">
-              <div class="row" style="text-align: center; justify-content: center; justify-items: center;"><p class="counter" style="text-align: center; justify-content: center; justify-items: center; font-family: 'Sora'; font-weight: 400;">200</p><p style="font-size: 30px; font-family: 'Sora'; font-weight: 400;">&nbsp+</p></div>
-              <span class="counter-text" style="font-family: 'Sora'; font-weight: 600;">WORKS COMPLETED</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 col-lg-4">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico" style="margin-bottom: 0px;">
-              <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
-            </div>
-            <div class="counter-num">
-              <div class="row" style="text-align: center; justify-content: center; justify-items: center;"><p class="counter" style="font-family: 'Sora'; font-weight: 400;">3</p><p style="font-size: 30px; font-family: 'Sora'; font-weight: 400;">&nbsp+</p></div>
-              <span class="counter-text" style="font-family: 'Sora'; font-weight: 600;">YEARS OF EXPERIENCE</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 col-lg-4">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico" style="margin-bottom: 0px;">
-              <span class="ico-circle"><i class="ion-ios-people"></i></span>
-            </div>
-            <div class="counter-num">
-              <div class="row" style="text-align: center; justify-content: center; justify-items: center;"><p class="counter" style="font-family: 'Sora'; font-weight: 400;">30</p><p style="font-size: 30px; font-family: 'Sora'; font-weight: 400;">&nbsp+</p></div>
-              <span class="counter-text" style="font-family: 'Sora'; font-weight: 600;">TOTAL CLIENTS</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--/ Section Portfolio Star /-->
-  <section id="work" class="portfolio-mf sect-pt4 route" style="background-image: url(bg_img/ssbg_2k_opt.jpg); background-position: center; background-attachment: fixed; background-size: cover; height: fit-content;">
-    <!-- <div class="overlay-mf glass" style="z-index: 10;"></div> -->
-    <div class="overlay-mf" style="z-index: -999999999;"></div>
-    <div id="cont" class="container glass" style="margin-top: 40px; border-radius: 4px;">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center" style="margin-bottom: 30px;">
-            <h3 class="title-a" style="padding-top: 30px; padding-bottom: 10px; font-family: 'Sora'; font-weight: 700; color: white;">
-              Portfolio
-            </h3>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-
-      <div id="portfolio" class="text-center paddsection" style="padding-top: 10px;">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-
-              <div class="portfolio-list" style="padding-left: 50px;">
-
-                <ul class="nave list-unstyled" id="portfolio-flters" style="font-family: 'Sora'; font-weight: 600;">
-                  <li class="filter filter-active" data-filter=".all" style="color: white;">All</li>
-                  <li class="filter" data-filter=".gaming" style="color: white;">Gaming</li>
-                  <li class="filter" data-filter=".product" style="color: white;">Product</li>
-                  <li class="filter" data-filter=".interior" style="color: white;">Interior</li>
-                  <li class="filter" data-filter=".ar" style="color: white;">AR</li>
-                  <li class="filter" data-filter=".vr" style="color: white;">VR</li>
-                  <li class="filter" data-filter=".metaverse" style="color: white;">MetaVerse</li>
-                  <li class="filter" data-filter=".graphicdesign" style="color: white;">Graphic Design</li>
-                </ul>
-
-              </div>
-
-              <div class="portfolio-container">
-
-                <div class="row">
-
-
-                  <div class="col-md-4 portfolio-thumbnail all interior">
-                    <div class="work-box" onclick="document.getElementById('modal03').style.display='block'" style="cursor: pointer; border-radius: 4px;">
-                      <div class="work-img" style="border-radius: 4px;">
-                        <img src="img_vid/LivingRoom_Interior_1/thumbnail.jpg" alt="" class="img-fluid">
-                      </div>
-                      <div class="work-content">
-                        <div class="row">
-                          <div class="col-sm-12">
-                            <h2 class="w-title" style="font-family: 'Sora'; font-weight: 600; text-align: center; font-size: small;">Living Room Visualization</h2>
-                            <div class="w-more">
-                              <br>
-                              <span class="w-date" style="font-family: 'Sora'; font-weight: 400;">18 Sep. 2018</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <div class="col-md-4 portfolio-thumbnail all interior">
-                    <div class="work-box" onclick="document.getElementById('modal04').style.display='block'" style="cursor: pointer; border-radius: 4px;  backdrop-filter: blur(150px); -webkit-backdrop-filter: blur(150px);">
-                      <div class="work-img" style="border-radius: 4px;">
-                        <img src="img_vid/Open_Space_living_room/thumbnail.jpg" alt="" class="img-fluid">
-                      </div>
-                      <div class="work-content">
-                        <div class="row">
-                          <div class="col-sm-12">
-                            <h2 class="w-title" style="font-family: 'Sora'; font-weight: 600; text-align: center; font-size: small; color: rgb(0, 0, 0);">Open Space Living Room</h2>
-                            <div class="w-more">
-                              <br>
-                              <span class="w-date" style="font-family: 'Sora'; font-weight: 400; color: rgb(0, 0, 0);">18 Sep. 2018</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <div class="col-md-4 portfolio-thumbnail all product">
-                    <div class="work-box" onclick="document.getElementById('modal02').style.display='block'" style="cursor: pointer; border-radius: 4px;">
-                      <div class="work-img" style="border-radius: 4px;">
-                        <img src="img_vid/Chest_Product_1/Thumbnail_2.jpg" alt="" class="img-fluid">
-                      </div>
-                      <div class="work-content">
-                        <div class="row">
-                          <div class="col-sm-12">
-                            <h2 class="w-title" style="font-family: 'Sora'; font-weight: 600; text-align: center; font-size: small;">BLACK MIRRORED CHEST, 2 DRAWER VDMF401</h2>
-                            <div class="w-more">
-                              <br>
-                              <span class="w-date" style="font-family: 'Sora'; font-weight: 400;">18 Sep. 2018</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <div class="col-md-4 portfolio-thumbnail all product">
-                    <div class="work-box" onclick="document.getElementById('modal01').style.display='block'" style="cursor: pointer; border-radius: 4px;  backdrop-filter: blur(150px); -webkit-backdrop-filter: blur(150px);">  
-                    <!-- <div class="work-box" onclick="f1();" style="cursor: pointer; border-radius: 4px;  backdrop-filter: blur(150px); -webkit-backdrop-filter: blur(150px);">               -->
-                      <div class="work-img" style="border-radius: 4px;">
-                        <img src="img_vid/Cabinet_Product_2/Thumbnail.jpg" alt="" class="img-fluid">
-                      </div>
-                      <div class="work-content">
-                        <div class="row">
-                          <div class="col-sm-12">
-                            <h2 class="w-title" style="font-family: 'Sora'; font-weight: 600; text-align: center; font-size: small; color: rgb(0, 0, 0);">36" Mid Century Modern TV Stand Storage Cabinet</h2>
-                            <div class="w-more">
-                              <br>
-                              <span class="w-date" style="font-family: 'Sora'; font-weight: 400; color: rgb(0, 0, 0);">18 Sep. 2018</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4 portfolio-thumbnail all product">
-                    <div class="work-box" onclick="document.getElementById('modal05').style.display='block'" style="cursor: pointer; border-radius: 4px;  backdrop-filter: blur(150px); -webkit-backdrop-filter: blur(150px);">
-                      <div class="work-img" style="border-radius: 4px;">
-                        <img src="img_vid/Espresso_Machine/thumbnail.jpg" alt="" class="img-fluid">
-                      </div>
-                      <div class="work-content">
-                        <div class="row">
-                          <div class="col-sm-12">
-                            <h2 class="w-title" style="font-family: 'Sora'; font-weight: 600; text-align: center; font-size: small; color: rgb(0, 0, 0);">Espresso Machine</h2>
-                            <div class="w-more">
-                              <br>
-                              <span class="w-date" style="font-family: 'Sora'; font-weight: 400; color: rgb(0, 0, 0);">18 Sep. 2018</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4 portfolio-thumbnail all product">
-                    <div class="work-box" onclick="document.getElementById('modal06').style.display='block'" style="cursor: pointer; border-radius: 4px;  backdrop-filter: blur(150px); -webkit-backdrop-filter: blur(150px);">
-                      <div class="work-img" style="border-radius: 4px;">
-                        <img src="img_vid/hand_bag/thumbnail.jpg" alt="" class="img-fluid">
-                      </div>
-                      <div class="work-content">
-                        <div class="row">
-                          <div class="col-sm-12">
-                            <h2 class="w-title" style="font-family: 'Sora'; font-weight: 600; text-align: center; font-size: small; color: rgb(0, 0, 0);">Hand Bag</h2>
-                            <div class="w-more">
-                              <br>
-                              <span class="w-date" style="font-family: 'Sora'; font-weight: 400; color: rgb(0, 0, 0);">18 Sep. 2018</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4 portfolio-thumbnail all product">
-                    <div class="work-box" onclick="document.getElementById('modal07').style.display='block'" style="cursor: pointer; border-radius: 4px;  backdrop-filter: blur(150px); -webkit-backdrop-filter: blur(150px);">
-                      <div class="work-img" style="border-radius: 4px;">
-                        <img src="img_vid/Face_wash/thumbnail.jpg" alt="" class="img-fluid">
-                      </div>
-                      <div class="work-content">
-                        <div class="row">
-                          <div class="col-sm-12">
-                            <h2 class="w-title" style="font-family: 'Sora'; font-weight: 600; text-align: center; font-size: small; color: rgb(0, 0, 0);">Face Wash</h2>
-                            <div class="w-more">
-                              <br>
-                              <span class="w-date" style="font-family: 'Sora'; font-weight: 400; color: rgb(0, 0, 0);">18 Sep. 2018</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- modal 01 -->
-    <div
-      id="modal01"
-      class="modal w3-animate-zoom"
+    <section
+      id="about"
+      class="about-mf sect-pt4 route"
       style="
-        background-color: black;
-        z-index: 999999;
+        background-attachment: local;
+        background-image: url(bg_img/background1_2k_opt.jpg);
       "
     >
-      <div 
-        onclick="document.getElementById('modal01').style.display='none'"
-        class="w3-button w3-hover-red w3-xlarge w3-display-topright circle"
-        data-dismiss="w3-modal"
-        style="justify-content: center; align-items: center; display: flex; margin-right: 30px; margin-top: 10px; background-color: #818589; color: black; position: inherit;"
-      >
-        <img
-          src="img/cross.png"
-          alt=""
-          class="img-fluid"
-          style="height: 30px; width: 40px"
-        />
+      <div class="container" style="position: relative; display: flex">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full glass" style="margin-bottom: 155px">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="">
+                    <div class="col-sm-6 col-md-5" style="align-items: center">
+                      <!-- col-sm-6 col-md-5 -->
+                      <div class="about-img">
+                        <img
+                          src="bg_img/DP_bw_2.png"
+                          class="img-fluid rounded b-shadow-a"
+                          style="border-radius: 50%"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-12" style="margin-right: 0">
+                      <!-- col-sm-6 col-md-7 -->
+                      <div class="about-info" style="font-family: 'Sora'">
+                        <p>
+                          <span
+                            class="title-s"
+                            style="
+                              color: #343434;
+                              font-weight: 600;
+                              font-size: 16px;
+                            "
+                            >Name:
+                          </span>
+                          <span
+                            style="
+                              color: #343434;
+                              font-size: 16px;
+                              font-weight: 400;
+                            "
+                            >Aritra Ghosh</span
+                          >
+                        </p>
+
+                        <p>
+                          <span
+                            class="title-s"
+                            style="
+                              color: #343434;
+                              font-weight: 600;
+                              font-size: 16px;
+                            "
+                            >Profile:
+                          </span>
+                          <span
+                            style="
+                              color: #343434;
+                              font-size: 16px;
+                              font-weight: 400;
+                            "
+                            >3D Generalist</span
+                          >
+                        </p>
+
+                        <p>
+                          <span
+                            class="title-s"
+                            style="
+                              color: #343434;
+                              font-weight: 600;
+                              font-size: 16px;
+                            "
+                            >Email:
+                          </span>
+                          <span
+                            style="
+                              color: #343434;
+                              font-size: 16px;
+                              font-weight: 400;
+                            "
+                            >arimanav007@gmail.com</span
+                          >
+                        </p>
+
+                        <p>
+                          <span
+                            class="title-s"
+                            style="
+                              color: #343434;
+                              font-weight: 600;
+                              font-size: 16px;
+                            "
+                            >Phone:
+                          </span>
+                          <span
+                            style="
+                              color: #343434;
+                              font-size: 16px;
+                              font-weight: 400;
+                            "
+                            >+91 877694465</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    style="padding-left: 10px; position: absolute; bottom: 0"
+                  >
+                    <a href="./assets/cv.pdf" download="" target="_blank">
+                      <button
+                        id="btnCV"
+                        type="submit"
+                        style="
+                          background-color: rgba(26, 26, 26, 0.658);
+                          border-radius: 20px;
+                          height: 50px;
+                          width: 170px;
+                        "
+                      >
+                        <div
+                          style="position: relative; padding-left: 0"
+                          class="flex flex-row"
+                        >
+                          <img src="icons/dwnld_2.png" alt="" />
+                          <span
+                            style="
+                              font-family: 'Sora';
+                              font-weight: 600;
+                              color: white;
+                            "
+                            >Download CV</span
+                          >
+                        </div>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5
+                        class="title-left"
+                        style="
+                          text-align: center;
+                          font-family: 'Sora';
+                          font-weight: 600;
+                        "
+                      >
+                        About me
+                      </h5>
+                    </div>
+                    <p
+                      class="lead"
+                      style="
+                        font-size: 15px;
+                        text-align: center;
+                        color: #343434;
+                        font-family: 'Sora';
+                        font-weight: 400;
+                      "
+                    >
+                      I am a self-trained and highly enthusiastic 3D artist who
+                      specializes in photorealistic rendering and environment
+                      design, as well as Physically Based Rendering (PBR)
+                      workflows for creating game assets. My career has also
+                      enabled me to become a skilled 3D visualizer, who enjoys
+                      creating product animations with captivating CGI
+                      backgrounds and color compositions.
+                    </p>
+                    <p
+                      class="lead"
+                      style="
+                        font-size: 15px;
+                        text-align: center;
+                        color: #343434;
+                        font-family: 'Sora';
+                        font-weight: 400;
+                      "
+                    >
+                      Currently, I work at Wow Labz as a 3D Generalist,
+                      contributing to the creation of immersive and visually
+                      captivating content. My diverse skill set, developed
+                      through self-directed education, enables me to provide
+                      cutting-edge solutions and ensure a high level of quality
+                      in all of my projects. My expertise spans across a broad
+                      range of software tools, such as Blender; 3ds Max; Unreal
+                      Engine 5; Unity; various Substance software; Premiere Pro;
+                      Photoshop; ZBrush; and more.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="modal-content w3-card-4" style="box-shadow: none; width: 1100px">
-        <div class="transbox" style="z-index: 1000000">
+    </section>
+
+    <div
+      class="testimonials paralax-mf bg-image"
+      style="background-image: url(bg_img/ssbg_opt.jpg)"
+    >
+      <div class="overlay-mf"></div>
+
+      <div class="container" style="margin-top: 10px">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center" style="margin-bottom: 30px">
+              <h3
+                class="title-a"
+                style="color: white; font-family: 'Sora'; font-weight: 700"
+              >
+                Skills & Experinces
+              </h3>
+              <div class="line-mf" style="color: white"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container reveal">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="testimonial-mf" class="owl-carousel owl-theme">
+              <div class="testimonial-box">
+                <div class="author-test">
+                  <img
+                    src="icons/Blender_logo.png"
+                    style="height: 300px; width: 300px"
+                    alt=""
+                    class="rounded-circle b-shadow-a"
+                  />
+                  <span
+                    class="author"
+                    style="font-family: 'Sora'; font-weight: 600"
+                    >Blender</span
+                  >
+                </div>
+                <div class="content-test">
+                  <p
+                    class="description lead"
+                    style="font-family: 'Sora'; font-weight: 400"
+                  >
+                    Modelling, Shading, Animation and Lighting Skills for
+                    photo-realistic rendering and environment creation/exporting
+                    assets for game engines.
+                  </p>
+                </div>
+              </div>
+
+              <div class="testimonial-box">
+                <div class="author-test">
+                  <img
+                    src="icons/3dsmax.png"
+                    style="height: 300px; width: 300px"
+                    alt=""
+                    class="rounded-circle b-shadow-a"
+                  />
+                  <span
+                    class="author"
+                    style="font-family: 'Sora'; font-weight: 600"
+                    >3ds Max</span
+                  >
+                </div>
+                <div class="content-test">
+                  <p
+                    class="description lead"
+                    style="font-family: 'Sora'; font-weight: 400"
+                  >
+                    Hard Surface Modelling, Photo-Realistic Rendering and
+                    Exporting assets for game engines.
+                  </p>
+                </div>
+              </div>
+
+              <div class="testimonial-box">
+                <div class="author-test">
+                  <img
+                    src="icons/Zbrush.png"
+                    style="height: 300px; width: 300px"
+                    alt=""
+                    class="rounded-circle b-shadow-a"
+                  />
+                  <span
+                    class="author"
+                    style="font-family: 'Sora'; font-weight: 600"
+                    >Z Brush</span
+                  >
+                </div>
+                <div class="content-test">
+                  <p
+                    class="description lead"
+                    style="font-family: 'Sora'; font-weight: 400"
+                  >
+                    3D Sculpting, Surface detailing work (Trim Sheets) for baked
+                    texture maps.
+                  </p>
+                </div>
+              </div>
+
+              <div class="testimonial-box">
+                <div class="author-test">
+                  <img
+                    src="icons/substance.png"
+                    style="height: 300px; width: 300px"
+                    alt=""
+                    class="rounded-circle b-shadow-a"
+                  />
+                  <span
+                    class="author"
+                    style="font-family: 'Sora'; font-weight: 600"
+                    >Substance Texturing Suite</span
+                  >
+                </div>
+                <div class="content-test">
+                  <p
+                    class="description lead"
+                    style="font-family: 'Sora'; font-weight: 400"
+                  >
+                    PBR texture creation, Procedural Material Creation,
+                    Photograph to texture creation.
+                  </p>
+                </div>
+              </div>
+
+              <div class="testimonial-box">
+                <div class="author-test">
+                  <img
+                    src="icons/photoshop.png"
+                    style="height: 300px; width: 300px"
+                    alt=""
+                    class="rounded-circle b-shadow-a"
+                  />
+                  <span
+                    class="author"
+                    style="font-family: 'Sora'; font-weight: 600"
+                    >Adobe Photoshop</span
+                  >
+                </div>
+                <div class="content-test">
+                  <p
+                    class="description lead"
+                    style="font-family: 'Sora'; font-weight: 400"
+                  >
+                    Graphic design, Texture creation.
+                  </p>
+                </div>
+              </div>
+
+              <div class="testimonial-box">
+                <div class="author-test">
+                  <img
+                    src="icons/premiere.png"
+                    style="height: 300px; width: 300px"
+                    alt=""
+                    class="rounded-circle b-shadow-a"
+                  />
+                  <span
+                    class="author"
+                    style="font-family: 'Sora'; font-weight: 600"
+                    >Adobe Premiere Pro</span
+                  >
+                </div>
+                <div class="content-test">
+                  <p
+                    class="description lead"
+                    style="font-family: 'Sora'; font-weight: 400"
+                  >
+                    Video Editting, Color Grading.
+                  </p>
+                </div>
+              </div>
+
+              <div class="testimonial-box">
+                <div class="author-test">
+                  <img
+                    src="icons/MD_logo.png"
+                    style="height: 300px; width: 300px"
+                    alt=""
+                    class="rounded-circle b-shadow-a"
+                  />
+                  <span
+                    class="author"
+                    style="font-family: 'Sora'; font-weight: 600"
+                    >Marvelous Designer</span
+                  >
+                </div>
+                <div class="content-test">
+                  <p
+                    class="description lead"
+                    style="font-family: 'Sora'; font-weight: 400"
+                  >
+                    Character Clothing Creation.
+                  </p>
+                </div>
+              </div>
+
+              <div class="testimonial-box">
+                <div class="author-test">
+                  <img
+                    src="icons/unreal.png"
+                    style="height: 300px; width: 300px"
+                    alt=""
+                    class="rounded-circle b-shadow-a"
+                  />
+                  <span
+                    class="author"
+                    style="font-family: 'Sora'; font-weight: 600"
+                    >Unreal Engine</span
+                  >
+                </div>
+                <div class="content-test">
+                  <p
+                    class="description lead"
+                    style="font-family: 'Sora'; font-weight: 400"
+                  >
+                    Environment building, Blueprints, Shaders, Lighting, Control
+                    Rigs.
+                  </p>
+                </div>
+              </div>
+
+              <div class="testimonial-box">
+                <div class="author-test">
+                  <img
+                    src="icons/unity.png"
+                    style="height: 300px; width: 300px"
+                    alt=""
+                    class="rounded-circle b-shadow-a"
+                  />
+                  <span
+                    class="author"
+                    style="font-family: 'Sora'; font-weight: 600"
+                    >Unity</span
+                  >
+                </div>
+                <div class="content-test">
+                  <p
+                    class="description lead"
+                    style="font-family: 'Sora'; font-weight: 400"
+                  >
+                    Environment building, Shaders, Lighting.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--/ Section Services Star /-->
+    <section
+      id="service"
+      class="services-mf route"
+      style="
+        background-image: url(bg_img/Services_bg2_opt.jpg);
+        padding-top: 30px;
+      "
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3
+                class="title-a"
+                style="color: white; font-family: 'Sora'; font-weight: 700"
+              >
+                Services
+              </h3>
+              <div class="line-mf" style="color: white"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="tilting-card-content">
+              <div
+                class="service-box"
+                style="background-image: url(bg_img/Scbg_opt.jpg)"
+              >
+                <div class="service-ico">
+                  <span class="ico-circle"
+                    ><i class=""
+                      ><img
+                        src="icons/3d-model2.png"
+                        alt=""
+                        class="img-fluid"
+                        style="height: 64px; width: 64px" /></i
+                  ></span>
+                </div>
+                <div class="service-content">
+                  <h2
+                    class="s-title"
+                    style="color: black; font-family: 'Sora'; font-weight: 600"
+                  >
+                    3D Modelling
+                  </h2>
+                  <p
+                    class="s-description text-center"
+                    style="color: black; font-family: 'Sora'; font-weight: 400"
+                  >
+                    Poly-modelling, Topology Optimization, Maintaining Edge
+                    Flow, Hard Surface Modelling (boolean operations),
+                    Experience with extra modelling addons and modifiers stack.
+                  </p>
+                </div>
+              </div>
+
+              <div class="mouse-position-tracker">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="tilting-card-content">
+              <div
+                class="service-box"
+                style="background-image: url(bg_img/Scbg_opt.jpg)"
+              >
+                <div class="service-ico">
+                  <span class="ico-circle"
+                    ><i class=""
+                      ><img
+                        src="icons/Tex_icon.png"
+                        alt=""
+                        class="img-fluid" /></i
+                  ></span>
+                </div>
+                <div class="service-content">
+                  <h2
+                    class="s-title"
+                    style="font-family: 'Sora'; font-weight: 600"
+                  >
+                    3D Texturing
+                  </h2>
+                  <p
+                    class="s-description text-center"
+                    style="font-family: 'Sora'; font-weight: 400"
+                  >
+                    3D PBR Texturing with Substance Painter, Experience with
+                    capturing real world details with Substance Sampler and
+                    Procedural Material Creation with Substance Designer
+                  </p>
+                </div>
+              </div>
+
+              <div class="mouse-position-tracker">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="tilting-card-content">
+              <div
+                class="service-box"
+                style="background-image: url(bg_img/Scbg_opt.jpg)"
+              >
+                <div class="service-ico">
+                  <span class="ico-circle"
+                    ><i class=""
+                      ><img
+                        src="icons/Ren_Icon.png"
+                        alt=""
+                        class="img-fluid" /></i
+                  ></span>
+                </div>
+                <div class="service-content">
+                  <h2
+                    class="s-title"
+                    style="font-family: 'Sora'; font-weight: 600"
+                  >
+                    3D Rendering
+                  </h2>
+                  <p
+                    class="s-description text-center"
+                    style="font-family: 'Sora'; font-weight: 400"
+                  >
+                    Ability to create Photo-realistic/Cinematic Rendering.
+                    Experience with Rendering Engines like Cycles, Arnold,
+                    V-ray.<br /><br />
+                  </p>
+                </div>
+              </div>
+
+              <div class="mouse-position-tracker">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="tilting-card-content">
+              <div
+                class="service-box"
+                style="background-image: url(bg_img/Scbg_opt.jpg)"
+              >
+                <div class="service-ico">
+                  <span class="ico-circle"
+                    ><i class=""
+                      ><img
+                        src="icons/Vedit_icon.png"
+                        alt=""
+                        class="img-fluid" /></i
+                  ></span>
+                </div>
+                <div class="service-content">
+                  <h2
+                    class="s-title"
+                    style="font-family: 'Sora'; font-weight: 600"
+                  >
+                    Video Editing
+                  </h2>
+                  <p
+                    class="s-description text-center"
+                    style="font-family: 'Sora'; font-weight: 400"
+                  >
+                    Standard Video Editing skills along with Cinematic Luts and
+                    Color Grading.<br /><br /><br /><br />
+                  </p>
+                </div>
+              </div>
+
+              <div class="mouse-position-tracker">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="tilting-card-content">
+              <div
+                class="service-box"
+                style="background-image: url(bg_img/Scbg_opt.jpg)"
+              >
+                <div class="service-ico">
+                  <span class="ico-circle"
+                    ><i class=""
+                      ><img
+                        src="icons/GD_icon.png"
+                        alt=""
+                        class="img-fluid" /></i
+                  ></span>
+                </div>
+                <div class="service-content">
+                  <h2
+                    class="s-title"
+                    style="font-family: 'Sora'; font-weight: 600"
+                  >
+                    Graphic Design
+                  </h2>
+                  <p
+                    class="s-description text-center"
+                    style="font-family: 'Sora'; font-weight: 400"
+                  >
+                    Photoshop Masking Techniques, Pattern Generation, Card
+                    Designs, Postprocessing Images.<br /><br /><br />
+                  </p>
+                </div>
+              </div>
+
+              <div class="mouse-position-tracker">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="tilting-card-content">
+              <div
+                class="service-box"
+                style="background-image: url(bg_img/Scbg_opt.jpg)"
+              >
+                <div class="service-ico">
+                  <span class="ico-circle"
+                    ><i class=""
+                      ><img
+                        src="icons/photo_icon.png"
+                        alt=""
+                        class="img-fluid" /></i
+                  ></span>
+                </div>
+                <div class="service-content">
+                  <h2
+                    class="s-title"
+                    style="font-family: 'Sora'; font-weight: 600"
+                  >
+                    Photography
+                  </h2>
+                  <p
+                    class="s-description text-center"
+                    style="font-family: 'Sora'; font-weight: 400"
+                  >
+                    Scene Composition, Lighting , Product Shoots, Model
+                    shoots.<br /><br /><br /><br />
+                  </p>
+                </div>
+              </div>
+
+              <div class="mouse-position-tracker">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ Section Services End /-->
+
+    <div
+      class="section-counter paralax-mf bg-image"
+      style="background-image: url(img/counters-bg.jpg)"
+    >
+      <div class="overlay-mf"></div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 col-lg-4">
+            <!-- col-sm-3 col-lg-3 -->
+            <div class="counter-box">
+              <div class="counter-ico" style="margin-bottom: 0px">
+                <span class="ico-circle"
+                  ><i class="ion-checkmark-round"></i
+                ></span>
+              </div>
+              <div class="counter-num">
+                <div
+                  class="row"
+                  style="
+                    text-align: center;
+                    justify-content: center;
+                    justify-items: center;
+                  "
+                >
+                  <p
+                    class="counter"
+                    style="
+                      text-align: center;
+                      justify-content: center;
+                      justify-items: center;
+                      font-family: 'Sora';
+                      font-weight: 400;
+                    "
+                  >
+                    200
+                  </p>
+                  <p
+                    style="
+                      font-size: 30px;
+                      font-family: 'Sora';
+                      font-weight: 400;
+                    "
+                  >
+                    &nbsp+
+                  </p>
+                </div>
+                <span
+                  class="counter-text"
+                  style="font-family: 'Sora'; font-weight: 600"
+                  >WORKS COMPLETED</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 col-lg-4">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico" style="margin-bottom: 0px">
+                <span class="ico-circle"
+                  ><i class="ion-ios-calendar-outline"></i
+                ></span>
+              </div>
+              <div class="counter-num">
+                <div
+                  class="row"
+                  style="
+                    text-align: center;
+                    justify-content: center;
+                    justify-items: center;
+                  "
+                >
+                  <p
+                    class="counter"
+                    style="font-family: 'Sora'; font-weight: 400"
+                  >
+                    3
+                  </p>
+                  <p
+                    style="
+                      font-size: 30px;
+                      font-family: 'Sora';
+                      font-weight: 400;
+                    "
+                  >
+                    &nbsp+
+                  </p>
+                </div>
+                <span
+                  class="counter-text"
+                  style="font-family: 'Sora'; font-weight: 600"
+                  >YEARS OF EXPERIENCE</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 col-lg-4">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico" style="margin-bottom: 0px">
+                <span class="ico-circle"><i class="ion-ios-people"></i></span>
+              </div>
+              <div class="counter-num">
+                <div
+                  class="row"
+                  style="
+                    text-align: center;
+                    justify-content: center;
+                    justify-items: center;
+                  "
+                >
+                  <p
+                    class="counter"
+                    style="font-family: 'Sora'; font-weight: 400"
+                  >
+                    30
+                  </p>
+                  <p
+                    style="
+                      font-size: 30px;
+                      font-family: 'Sora';
+                      font-weight: 400;
+                    "
+                  >
+                    &nbsp+
+                  </p>
+                </div>
+                <span
+                  class="counter-text"
+                  style="font-family: 'Sora'; font-weight: 600"
+                  >TOTAL CLIENTS</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--/ Section Portfolio Star /-->
+    <section
+      id="work"
+      class="portfolio-mf sect-pt4 route"
+      style="
+        background-image: url(bg_img/ssbg_2k_opt.jpg);
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        height: fit-content;
+      "
+    >
+      <!-- <div class="overlay-mf glass" style="z-index: 10;"></div> -->
+      <div class="overlay-mf" style="z-index: -999999999"></div>
+      <div
+        id="cont"
+        class="container glass"
+        style="margin-top: 40px; border-radius: 4px"
+      >
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center" style="margin-bottom: 30px">
+              <h3
+                class="title-a"
+                style="
+                  padding-top: 30px;
+                  padding-bottom: 10px;
+                  font-family: 'Sora';
+                  font-weight: 700;
+                  color: white;
+                "
+              >
+                Portfolio
+              </h3>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="portfolio"
+          class="text-center paddsection"
+          style="padding-top: 10px"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="portfolio-list" style="padding-left: 50px">
+                  <ul
+                    class="nave list-unstyled"
+                    id="portfolio-flters"
+                    style="font-family: 'Sora'; font-weight: 600"
+                  >
+                    <li
+                      class="filter filter-active"
+                      data-filter=".all"
+                      style="color: white"
+                    >
+                      All
+                    </li>
+                    <li
+                      class="filter"
+                      data-filter=".gaming"
+                      style="color: white"
+                    >
+                      Gaming
+                    </li>
+                    <li
+                      class="filter"
+                      data-filter=".product"
+                      style="color: white"
+                    >
+                      Product
+                    </li>
+                    <li
+                      class="filter"
+                      data-filter=".interior"
+                      style="color: white"
+                    >
+                      Interior
+                    </li>
+                    <li class="filter" data-filter=".ar" style="color: white">
+                      AR
+                    </li>
+                    <li class="filter" data-filter=".vr" style="color: white">
+                      VR
+                    </li>
+                    <li
+                      class="filter"
+                      data-filter=".metaverse"
+                      style="color: white"
+                    >
+                      MetaVerse
+                    </li>
+                    <li
+                      class="filter"
+                      data-filter=".graphicdesign"
+                      style="color: white"
+                    >
+                      Graphic Design
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="portfolio-container">
+                  <div class="row">
+                    <div class="col-md-4 portfolio-thumbnail all interior">
+                      <div
+                        class="work-box"
+                        onclick="document.getElementById('modal03').style.display='block'"
+                        style="cursor: pointer; border-radius: 4px"
+                      >
+                        <div class="work-img" style="border-radius: 4px">
+                          <img
+                            src="img_vid/LivingRoom_Interior_1/thumbnail.jpg"
+                            alt=""
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="work-content">
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <h2
+                                class="w-title"
+                                style="
+                                  font-family: 'Sora';
+                                  font-weight: 600;
+                                  text-align: center;
+                                  font-size: small;
+                                "
+                              >
+                                Living Room Visualization
+                              </h2>
+                              <div class="w-more">
+                                <br />
+                                <span
+                                  class="w-date"
+                                  style="font-family: 'Sora'; font-weight: 400"
+                                  >18 Sep. 2018</span
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 portfolio-thumbnail all interior">
+                      <div
+                        class="work-box"
+                        onclick="document.getElementById('modal04').style.display='block'"
+                        style="
+                          cursor: pointer;
+                          border-radius: 4px;
+                          backdrop-filter: blur(150px);
+                          -webkit-backdrop-filter: blur(150px);
+                        "
+                      >
+                        <div class="work-img" style="border-radius: 4px">
+                          <img
+                            src="img_vid/Open_Space_living_room/thumbnail.jpg"
+                            alt=""
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="work-content">
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <h2
+                                class="w-title"
+                                style="
+                                  font-family: 'Sora';
+                                  font-weight: 600;
+                                  text-align: center;
+                                  font-size: small;
+                                  color: rgb(0, 0, 0);
+                                "
+                              >
+                                Open Space Living Room
+                              </h2>
+                              <div class="w-more">
+                                <br />
+                                <span
+                                  class="w-date"
+                                  style="
+                                    font-family: 'Sora';
+                                    font-weight: 400;
+                                    color: rgb(0, 0, 0);
+                                  "
+                                  >18 Sep. 2018</span
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 portfolio-thumbnail all product">
+                      <div
+                        class="work-box"
+                        onclick="document.getElementById('modal02').style.display='block'"
+                        style="cursor: pointer; border-radius: 4px"
+                      >
+                        <div class="work-img" style="border-radius: 4px">
+                          <img
+                            src="img_vid/Chest_Product_1/Thumbnail_2.jpg"
+                            alt=""
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="work-content">
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <h2
+                                class="w-title"
+                                style="
+                                  font-family: 'Sora';
+                                  font-weight: 600;
+                                  text-align: center;
+                                  font-size: small;
+                                "
+                              >
+                                BLACK MIRRORED CHEST, 2 DRAWER VDMF401
+                              </h2>
+                              <div class="w-more">
+                                <br />
+                                <span
+                                  class="w-date"
+                                  style="font-family: 'Sora'; font-weight: 400"
+                                  >18 Sep. 2018</span
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 portfolio-thumbnail all product">
+                      <div
+                        class="work-box"
+                        onclick="document.getElementById('modal01').style.display='block'"
+                        style="
+                          cursor: pointer;
+                          border-radius: 4px;
+                          backdrop-filter: blur(150px);
+                          -webkit-backdrop-filter: blur(150px);
+                        "
+                      >
+                        <!-- <div class="work-box" onclick="f1();" style="cursor: pointer; border-radius: 4px;  backdrop-filter: blur(150px); -webkit-backdrop-filter: blur(150px);">               -->
+                        <div class="work-img" style="border-radius: 4px">
+                          <img
+                            src="img_vid/Cabinet_Product_2/Thumbnail.jpg"
+                            alt=""
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="work-content">
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <h2
+                                class="w-title"
+                                style="
+                                  font-family: 'Sora';
+                                  font-weight: 600;
+                                  text-align: center;
+                                  font-size: small;
+                                  color: rgb(0, 0, 0);
+                                "
+                              >
+                                36" Mid Century Modern TV Stand Storage Cabinet
+                              </h2>
+                              <div class="w-more">
+                                <br />
+                                <span
+                                  class="w-date"
+                                  style="
+                                    font-family: 'Sora';
+                                    font-weight: 400;
+                                    color: rgb(0, 0, 0);
+                                  "
+                                  >18 Sep. 2018</span
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 portfolio-thumbnail all product">
+                      <div
+                        class="work-box"
+                        onclick="document.getElementById('modal05').style.display='block'"
+                        style="
+                          cursor: pointer;
+                          border-radius: 4px;
+                          backdrop-filter: blur(150px);
+                          -webkit-backdrop-filter: blur(150px);
+                        "
+                      >
+                        <div class="work-img" style="border-radius: 4px">
+                          <img
+                            src="img_vid/Espresso_Machine/thumbnail.jpg"
+                            alt=""
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="work-content">
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <h2
+                                class="w-title"
+                                style="
+                                  font-family: 'Sora';
+                                  font-weight: 600;
+                                  text-align: center;
+                                  font-size: small;
+                                  color: rgb(0, 0, 0);
+                                "
+                              >
+                                Espresso Machine
+                              </h2>
+                              <div class="w-more">
+                                <br />
+                                <span
+                                  class="w-date"
+                                  style="
+                                    font-family: 'Sora';
+                                    font-weight: 400;
+                                    color: rgb(0, 0, 0);
+                                  "
+                                  >18 Sep. 2018</span
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 portfolio-thumbnail all product">
+                      <div
+                        class="work-box"
+                        onclick="document.getElementById('modal06').style.display='block'"
+                        style="
+                          cursor: pointer;
+                          border-radius: 4px;
+                          backdrop-filter: blur(150px);
+                          -webkit-backdrop-filter: blur(150px);
+                        "
+                      >
+                        <div class="work-img" style="border-radius: 4px">
+                          <img
+                            src="img_vid/hand_bag/thumbnail.jpg"
+                            alt=""
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="work-content">
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <h2
+                                class="w-title"
+                                style="
+                                  font-family: 'Sora';
+                                  font-weight: 600;
+                                  text-align: center;
+                                  font-size: small;
+                                  color: rgb(0, 0, 0);
+                                "
+                              >
+                                Hand Bag
+                              </h2>
+                              <div class="w-more">
+                                <br />
+                                <span
+                                  class="w-date"
+                                  style="
+                                    font-family: 'Sora';
+                                    font-weight: 400;
+                                    color: rgb(0, 0, 0);
+                                  "
+                                  >18 Sep. 2018</span
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 portfolio-thumbnail all product">
+                      <div
+                        class="work-box"
+                        onclick="document.getElementById('modal07').style.display='block'"
+                        style="
+                          cursor: pointer;
+                          border-radius: 4px;
+                          backdrop-filter: blur(150px);
+                          -webkit-backdrop-filter: blur(150px);
+                        "
+                      >
+                        <div class="work-img" style="border-radius: 4px">
+                          <img
+                            src="img_vid/Face_wash/thumbnail.jpg"
+                            alt=""
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="work-content">
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <h2
+                                class="w-title"
+                                style="
+                                  font-family: 'Sora';
+                                  font-weight: 600;
+                                  text-align: center;
+                                  font-size: small;
+                                  color: rgb(0, 0, 0);
+                                "
+                              >
+                                Face Wash
+                              </h2>
+                              <div class="w-more">
+                                <br />
+                                <span
+                                  class="w-date"
+                                  style="
+                                    font-family: 'Sora';
+                                    font-weight: 400;
+                                    color: rgb(0, 0, 0);
+                                  "
+                                  >18 Sep. 2018</span
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- modal 01 -->
+      <div
+        id="modal01"
+        class="modal w3-animate-zoom"
+        style="background-color: black; z-index: 999999"
+      >
+        <div
+          onclick="document.getElementById('modal01').style.display='none'"
+          class="w3-button w3-hover-red w3-xlarge w3-display-topright circle"
+          data-dismiss="w3-modal"
+          style="
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin-right: 30px;
+            margin-top: 10px;
+            background-color: #818589;
+            color: black;
+            position: inherit;
+          "
+        >
+          <img
+            src="img/cross.png"
+            alt=""
+            class="img-fluid"
+            style="height: 30px; width: 40px"
+          />
+        </div>
+        <div
+          class="modal-content w3-card-4"
+          style="box-shadow: none; width: 1100px"
+        >
+          <div class="transbox" style="z-index: 1000000">
+            <div
+              class="w3-container w3-black"
+              style="padding-top: 10px; padding-bottom: 20px"
+            >
+              <img
+                src="img_vid/Cabinet_Product_2/Page1.jpg"
+                galleryimg="no"
+                style="padding-bottom: 10px; width: 100%"
+                class="img-fluid"
+              />
+              <img
+                src="img_vid/Cabinet_Product_2/Page2.jpg"
+                style="padding-bottom: 10px; width: 100%"
+                class="img-fluid"
+              />
+              <video
+                width="100%"
+                height="100%"
+                padding-bottom="10px"
+                autoplay
+                loop
+                muted
+                controls="controls"
+              >
+                <source
+                  src="img_vid/Cabinet_Product_2/page3.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <img
+                src="img_vid/Cabinet_Product_2/Page4.jpg"
+                style="padding-bottom: 10px; width: 100%"
+                class="img-fluid"
+              />
+              <img
+                src="img_vid/Cabinet_Product_2/page5.jpg"
+                style="padding-bottom: 10px; width: 100%"
+                class="img-fluid"
+              />
+              <video
+                width="100%"
+                height="100%"
+                padding-bottom="10px"
+                autoplay
+                loop
+                muted
+                controls="controls"
+              >
+                <source
+                  src="img_vid/Cabinet_Product_2/page6.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <img
+                src="img_vid/Cabinet_Product_2/page7.jpg"
+                style="padding-bottom: 10px; width: 100%"
+                class="img-fluid"
+              />
+              <img
+                src="img_vid/Cabinet_Product_2/page8.png"
+                style="padding-bottom: 10px; width: 100%"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- modal 02 -->
+      <div
+        id="modal02"
+        class="w3-modal w3-animate-zoom"
+        style="background-color: white; z-index: 999999"
+      >
+        <div
+          onclick="document.getElementById('modal02').style.display='none'"
+          class="w3-button w3-hover-red w3-xlarge w3-display-topright circle"
+          data-dismiss="w3-modal"
+          style="
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin-right: 30px;
+            margin-top: 10px;
+            background-color: #818589;
+            color: black;
+            position: inherit;
+          "
+        >
+          <img
+            src="img/cross.png"
+            alt=""
+            class="img-fluid"
+            style="height: 30px; width: 40px"
+          />
+        </div>
+        <div
+          class="w3-modal-content w3-card-4"
+          style="box-shadow: none; width: 1100px"
+        >
+          <div
+            class="w3-container w3-white"
+            style="padding-top: 10px; padding-bottom: 20px"
+          >
+            <img
+              src="img_vid/Chest_Product_1/page1.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+            <video
+              width="100%"
+              height="100%"
+              padding-bottom="10px"
+              autoplay
+              loop
+              muted
+              controls="controls"
+            >
+              <source
+                src="img_vid/Chest_Product_1/page2.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <img
+              src="img_vid/Chest_Product_1/page3.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+            <img
+              src="img_vid/Chest_Product_1/page4.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+            <img
+              src="img_vid/Chest_Product_1/page5.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+            <video
+              width="100%"
+              height="100%"
+              padding-bottom="10px"
+              autoplay
+              loop
+              muted
+              controls="controls"
+            >
+              <source
+                src="img_vid/Chest_Product_1/page6_u.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <video
+              width="100%"
+              height="100%"
+              padding-bottom="10px"
+              autoplay
+              loop
+              muted
+              controls="controls"
+            >
+              <source
+                src="img_vid/Chest_Product_1/page7.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <img
+              src="img_vid/Chest_Product_1/page8.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+            <img
+              src="img_vid/Chest_Product_1/page9.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- modal 03 -->
+      <div
+        id="modal03"
+        class="w3-modal w3-animate-zoom"
+        style="background-color: black; z-index: 999999"
+      >
+        <div
+          onclick="document.getElementById('modal03').style.display='none'"
+          class="w3-button w3-hover-red w3-xlarge w3-display-topright circle"
+          data-dismiss="w3-modal"
+          style="
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin-right: 30px;
+            margin-top: 10px;
+            background-color: #818589;
+            color: black;
+            position: inherit;
+          "
+        >
+          <img
+            src="img/cross.png"
+            alt=""
+            class="img-fluid"
+            style="height: 30px; width: 40px"
+          />
+        </div>
+        <div class="w3-modal-content w3-card-4" style="width: 1100px">
           <div
             class="w3-container w3-black"
             style="padding-top: 10px; padding-bottom: 20px"
           >
             <img
-              src="img_vid/Cabinet_Product_2/Page1.jpg"
-              galleryimg="no"
+              src="img_vid/LivingRoom_Interior_1/Page1.jpg"
               style="padding-bottom: 10px; width: 100%"
               class="img-fluid"
             />
             <img
-              src="img_vid/Cabinet_Product_2/Page2.jpg"
+              src="img_vid/LivingRoom_Interior_1/Page2.jpg"
               style="padding-bottom: 10px; width: 100%"
               class="img-fluid"
             />
@@ -763,15 +1784,18 @@
               muted
               controls="controls"
             >
-              <source src="img_vid/Cabinet_Product_2/page3.mp4" type="video/mp4" />
+              <source
+                src="img_vid/LivingRoom_Interior_1/Page3.mp4"
+                type="video/mp4"
+              />
             </video>
             <img
-              src="img_vid/Cabinet_Product_2/Page4.jpg"
-              style="padding-bottom: 10px; width: 100%"
+              src="img_vid/LivingRoom_Interior_1/Page4.jpg"
+              style="padding-bottom: 50px; width: 100%"
               class="img-fluid"
             />
             <img
-              src="img_vid/Cabinet_Product_2/page5.jpg"
+              src="img_vid/LivingRoom_Interior_1/Page5.jpg"
               style="padding-bottom: 10px; width: 100%"
               class="img-fluid"
             />
@@ -784,764 +1808,867 @@
               muted
               controls="controls"
             >
-              <source src="img_vid/Cabinet_Product_2/page6.mp4" type="video/mp4" />
+              <source
+                src="img_vid/LivingRoom_Interior_1/Page6.mp4"
+                type="video/mp4"
+              />
             </video>
             <img
-              src="img_vid/Cabinet_Product_2/page7.jpg"
+              src="img_vid/LivingRoom_Interior_1/Page7.png"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- modal 04 -->
+      <div
+        id="modal04"
+        class="w3-modal w3-animate-zoom"
+        style="background-color: white; z-index: 999999"
+      >
+        <div
+          onclick="document.getElementById('modal04').style.display='none'"
+          class="w3-button w3-hover-red w3-xlarge w3-display-topright circle"
+          data-dismiss="w3-modal"
+          style="
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin-right: 30px;
+            margin-top: 10px;
+            background-color: #818589;
+            color: black;
+            position: inherit;
+          "
+        >
+          <img
+            src="img/cross.png"
+            alt=""
+            class="img-fluid"
+            style="height: 30px; width: 40px"
+          />
+        </div>
+        <div
+          class="w3-modal-content w3-card-4"
+          style="box-shadow: none; width: 1100px"
+        >
+          <div
+            class="w3-container w3-white"
+            style="padding-top: 10px; padding-bottom: 20px"
+          >
+            <img
+              src="img_vid/Open_Space_living_room/Page-1.jpg"
               style="padding-bottom: 10px; width: 100%"
               class="img-fluid"
             />
             <img
-              src="img_vid/Cabinet_Product_2/page8.png"
+              src="img_vid/Open_Space_living_room/Page-2.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+            <img
+              src="img_vid/Open_Space_living_room/Page-3.jpg"
+              style="padding-bottom: 50px; width: 100%"
+              class="img-fluid"
+            />
+            <img
+              src="img_vid/Open_Space_living_room/Page-4.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+            <img
+              src="img_vid/Open_Space_living_room/Page-5.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+            <img
+              src="img_vid/Open_Space_living_room/Page-6.jpg"
               style="padding-bottom: 10px; width: 100%"
               class="img-fluid"
             />
           </div>
         </div>
       </div>
-    </div>
 
-
-    <!-- modal 02 -->
-    <div
-      id="modal02"
-      class="w3-modal w3-animate-zoom"
-      style="background-color: white; z-index: 999999"
-    >
+      <!-- modal 05 -->
       <div
-        onclick="document.getElementById('modal02').style.display='none'"
-        class="w3-button w3-hover-red w3-xlarge w3-display-topright circle"
-        data-dismiss="w3-modal"
-        style="
-          justify-content: center;
-          align-items: center;
-          display: flex;
-          margin-right: 30px;
-          margin-top: 10px;
-          background-color: #818589;
-          color: black;
-          position: inherit;
-        "
+        id="modal05"
+        class="w3-modal w3-animate-zoom"
+        style="background-color: black; z-index: 999999"
       >
-        <img
-          src="img/cross.png"
-          alt=""
-          class="img-fluid"
-          style="height: 30px; width: 40px"
-        />
-      </div>
-      <div class="w3-modal-content w3-card-4" style="box-shadow: none; width: 1100px">
         <div
-          class="w3-container w3-white"
-          style="padding-top: 10px; padding-bottom: 20px"
+          onclick="document.getElementById('modal05').style.display='none'"
+          class="w3-button w3-hover-red w3-xlarge w3-display-topright circle"
+          data-dismiss="w3-modal"
+          style="
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin-right: 30px;
+            margin-top: 10px;
+            background-color: #818589;
+            color: black;
+            position: inherit;
+          "
         >
           <img
-            src="img_vid/Chest_Product_1/page1.jpg"
-            style="padding-bottom: 10px; width: 100%"
+            src="img/cross.png"
+            alt=""
             class="img-fluid"
-          />
-          <video
-            width="100%"
-            height="100%"
-            padding-bottom="10px"
-            autoplay
-            loop
-            muted
-            controls="controls"
-          >
-            <source src="img_vid/Chest_Product_1/page2.mp4" type="video/mp4" />
-          </video>
-          <img
-            src="img_vid/Chest_Product_1/page3.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <img
-            src="img_vid/Chest_Product_1/page4.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <img
-            src="img_vid/Chest_Product_1/page5.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <video
-            width="100%"
-            height="100%"
-            padding-bottom="10px"
-            autoplay
-            loop
-            muted
-            controls="controls"
-          >
-            <source src="img_vid/Chest_Product_1/page6_u.mp4" type="video/mp4" />
-          </video>
-          <video
-            width="100%"
-            height="100%"
-            padding-bottom="10px"
-            autoplay
-            loop
-            muted
-            controls="controls"
-          >
-            <source src="img_vid/Chest_Product_1/page7.mp4" type="video/mp4" />
-          </video>
-          <img
-            src="img_vid/Chest_Product_1/page8.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <img
-            src="img_vid/Chest_Product_1/page9.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
+            style="height: 30px; width: 40px"
           />
         </div>
-      </div>
-    </div>
-
-    <!-- modal 03 -->
-    <div
-      id="modal03"
-      class="w3-modal w3-animate-zoom"
-      style="background-color: black; z-index: 999999"
-    >
-      <div
-        onclick="document.getElementById('modal03').style.display='none'"
-        class="w3-button w3-hover-red w3-xlarge w3-display-topright circle"
-        data-dismiss="w3-modal"
-        style="
-          justify-content: center;
-          align-items: center;
-          display: flex;
-          margin-right: 30px;
-          margin-top: 10px;
-          background-color: #818589;
-          color: black;
-          position: inherit;
-        "
-      >
-        <img
-          src="img/cross.png"
-          alt=""
-          class="img-fluid"
-          style="height: 30px; width: 40px"
-        />
-      </div>
-      <div class="w3-modal-content w3-card-4" style="width: 1100px">
-        <div
-          class="w3-container w3-black"
-          style="padding-top: 10px; padding-bottom: 20px"
-        >
-          <img
-            src="img_vid/LivingRoom_Interior_1/Page1.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <img
-            src="img_vid/LivingRoom_Interior_1/Page2.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <video
-            width="100%"
-            height="100%"
-            padding-bottom="10px"
-            autoplay
-            loop
-            muted
-            controls="controls"
+        <div class="w3-modal-content w3-card-4" style="width: 1100px">
+          <div
+            class="w3-container w3-black"
+            style="padding-top: 10px; padding-bottom: 20px"
           >
-            <source src="img_vid/LivingRoom_Interior_1/Page3.mp4" type="video/mp4" />
-          </video>
-          <img
-            src="img_vid/LivingRoom_Interior_1/Page4.jpg"
-            style="padding-bottom: 50px; width: 100%"
-            class="img-fluid"
-          />
-          <img
-            src="img_vid/LivingRoom_Interior_1/Page5.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <video
-            width="100%"
-            height="100%"
-            padding-bottom="10px"
-            autoplay
-            loop
-            muted
-            controls="controls"
-          >
-            <source src="img_vid/LivingRoom_Interior_1/Page6.mp4" type="video/mp4" />
-          </video>
-          <img
-            src="img_vid/LivingRoom_Interior_1/Page7.png"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-        </div>
-      </div>
-    </div>
-
-    <!-- modal 04 -->
-    <div
-      id="modal04"
-      class="w3-modal w3-animate-zoom"
-      style="background-color: white; z-index: 999999"
-    >
-      <div
-        onclick="document.getElementById('modal04').style.display='none'"
-        class="w3-button w3-hover-red w3-xlarge w3-display-topright circle"
-        data-dismiss="w3-modal"
-        style="
-          justify-content: center;
-          align-items: center;
-          display: flex;
-          margin-right: 30px;
-          margin-top: 10px;
-          background-color: #818589;
-          color: black;
-          position: inherit;
-        "
-      >
-        <img
-          src="img/cross.png"
-          alt=""
-          class="img-fluid"
-          style="height: 30px; width: 40px"
-        />
-      </div>
-      <div class="w3-modal-content w3-card-4" style="box-shadow: none; width: 1100px">
-        <div
-          class="w3-container w3-white"
-          style="padding-top: 10px; padding-bottom: 20px"
-        >
-          <img
-            src="img_vid/Open_Space_living_room/Page-1.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <img
-            src="img_vid/Open_Space_living_room/Page-2.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <img
-            src="img_vid/Open_Space_living_room/Page-3.jpg"
-            style="padding-bottom: 50px; width: 100%"
-            class="img-fluid"
-          />
-          <img
-            src="img_vid/Open_Space_living_room/Page-4.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <img
-            src="img_vid/Open_Space_living_room/Page-5.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <img
-            src="img_vid/Open_Space_living_room/Page-6.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-        </div>
-      </div>
-    </div>
-
-    <!-- modal 05 -->
-    <div
-      id="modal05"
-      class="w3-modal w3-animate-zoom"
-      style="background-color: black; z-index: 999999"
-    >
-      <div
-        onclick="document.getElementById('modal05').style.display='none'"
-        class="w3-button w3-hover-red w3-xlarge w3-display-topright circle"
-        data-dismiss="w3-modal"
-        style="
-          justify-content: center;
-          align-items: center;
-          display: flex;
-          margin-right: 30px;
-          margin-top: 10px;
-          background-color: #818589;
-          color: black;
-          position: inherit;
-        "
-      >
-        <img
-          src="img/cross.png"
-          alt=""
-          class="img-fluid"
-          style="height: 30px; width: 40px"
-        />
-      </div>
-      <div class="w3-modal-content w3-card-4" style="width: 1100px">
-        <div
-          class="w3-container w3-black"
-          style="padding-top: 10px; padding-bottom: 20px"
-        >
-          <img
-            src="img_vid/Espresso_Machine/Page1.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <img
-            src="img_vid/Espresso_Machine/Page2.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <video
-            width="100%"
-            height="100%"
-            padding-bottom="10px"
-            autoplay
-            loop
-            muted
-            controls="controls"
-          >
-            <source src="img_vid/Espresso_Machine/Page3.mp4" type="video/mp4" />
-          </video>
-          <img
-            src="img_vid/Espresso_Machine/Page4.jpg"
-            style="padding-bottom: 50px; width: 100%"
-            class="img-fluid"
-          />
-          <img
-            src="img_vid/Espresso_Machine/Page5.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <img
-            src="img_vid/Espresso_Machine/Page6.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-        </div>
-      </div>
-    </div>
-
-    <!-- modal 06 -->
-    <div
-      id="modal06"
-      class="w3-modal w3-animate-zoom"
-      style="background-color: black; z-index: 999999"
-    >
-      <div
-        onclick="document.getElementById('modal06').style.display='none'"
-        class="w3-button w3-hover-red w3-xlarge w3-display-topright circle"
-        data-dismiss="w3-modal"
-        style="
-          justify-content: center;
-          align-items: center;
-          display: flex;
-          margin-right: 30px;
-          margin-top: 10px;
-          background-color: #818589;
-          color: black;
-          position: inherit;
-        "
-      >
-        <img
-          src="img/cross.png"
-          alt=""
-          class="img-fluid"
-          style="height: 30px; width: 40px"
-        />
-      </div>
-      <div class="w3-modal-content w3-card-4" style="width: 1100px">
-        <div
-          class="w3-container w3-black"
-          style="padding-top: 10px; padding-bottom: 20px"
-        >
-          <img
-            src="img_vid/hand_bag/Page1.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <img
-            src="img_vid/hand_bag/Page2.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <img
-            src="img_vid/hand_bag/Page3.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <video
-            width="100%"
-            height="100%"
-            padding-bottom="10px"
-            autoplay
-            loop
-            muted
-            controls="controls"
-          >
-            <source src="img_vid/hand_bag/Page4.mp4" type="video/mp4" />
-          </video>
-          <img
-            src="img_vid/hand_bag/Page5.jpg"
-            style="padding-bottom: 50px; width: 100%"
-            class="img-fluid"
-          />
-          <img
-            src="img_vid/hand_bag/Page6.gif"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <img
-            src="img_vid/hand_bag/Page7.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <img
-            src="img_vid/hand_bag/Page8.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-        </div>
-      </div>
-    </div>
-
-    <!-- modal 07 -->
-    <div
-      id="modal07"
-      class="w3-modal w3-animate-zoom"
-      style="background-color: black; z-index: 999999"
-    >
-      <div
-        onclick="document.getElementById('modal07').style.display='none'"
-        class="w3-button w3-hover-red w3-xlarge w3-display-topright circle"
-        data-dismiss="w3-modal"
-        style="
-          justify-content: center;
-          align-items: center;
-          display: flex;
-          margin-right: 30px;
-          margin-top: 10px;
-          background-color: #818589;
-          color: black;
-          position: inherit;
-        "
-      >
-        <img
-          src="img/cross.png"
-          alt=""
-          class="img-fluid"
-          style="height: 30px; width: 40px"
-        />
-      </div>
-      <div class="w3-modal-content w3-card-4" style="width: 1100px">
-        <div
-          class="w3-container w3-black"
-          style="padding-top: 10px; padding-bottom: 20px"
-        >
-          <img
-            src="img_vid/Face_wash/Page1.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <video
-            width="100%"
-            height="100%"
-            padding-bottom="10px"
-            autoplay
-            loop
-            muted
-            controls="controls"
-          >
-            <source src="img_vid/Face_wash/Page2.mp4" type="video/mp4" />
-          </video>
-          <img
-            src="img_vid/Face_wash/Page3.jpg"
-            style="padding-bottom: 50px; width: 100%"
-            class="img-fluid"
-          />
-          <img
-            src="img_vid/Face_wash/Page4.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <img
-            src="img_vid/Face_wash/Page5.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-          <img
-            src="img_vid/Face_wash/Page6.jpg"
-            style="padding-bottom: 10px; width: 100%"
-            class="img-fluid"
-          />
-        </div>
-      </div>
-    </div>
-
-
-  </section>
-  <!--/ Section Portfolio End /-->
-
-  <!--/ Section Testimonials Star /-->
-  <div class="testimonials paralax-mf bg-image" style="height: fit-content; background-image: url(bg_img/ssbg_opt.jpg)">
-    <div class="overlay-mf"></div>
-
-    <div class="container" style="margin-top: 5px;">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center" style="margin-bottom: 10px;">
-            <h3 class="title-a" style="color: white; font-family: 'Sora'; font-weight: 700;">
-              Testimonials
-            </h3>
-            <div class="line-mf" style="color: white;"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container reveal" >
-      <div class="row" >
-        <div class="col-md-12" >
-          <div id="testimonial-mf1" class="owl-carousel owl-theme owl-loaded owl-drag">
-
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="clients_testimonials/Raja_Rai.png" style="height: 200px; width: 200px;" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">RAJA RAI</span>
-                <span style="font-family: 'Sora'; font-size: 20px; color: rgb(202, 202, 202);">Senior 3D Artist - Xplorazzi</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                  It is with great pleasure that I share my experiences working alongside our talented intern 3D artist, Arizz. In the duration of their internship, Arizz has proven to be a valuable asset to our team, showcasing not only a strong foundation in 3D artistry but also an eagerness to learn and grow.
-                </p>
-              </div>
-            </div>
-
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="clients_testimonials/Faraz_Ahmad.png" style="height: 200px; width: 200px;" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">FARAZ AHMAD</span>
-                <span style="font-family: 'Sora'; font-size: 20px; color: rgb(202, 202, 202);">Founder - Sofaab</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit.
-                </p>
-              </div>
-            </div>
-
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="clients_testimonials/Vinay_Vidyasagar.png" style="height: 200px; width: 200px;" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">VINAY VIDYASAGAR</span>
-                <span style="font-family: 'Sora'; font-size: 20px; color: rgb(202, 202, 202);">Senior Game Developer - Wowlabz</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit.
-                </p>
-              </div>
-            </div>
-
-            
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--/ Section Clients /-->
-  <section id="blog" class="blog-mf sect-pt4 route" style="background-image: url(bg_img/Clients_final_2.PNG); background-position: center center; background-size: 1920px; height: 600px; justify-content: center; justify-items: center;">
-    <div class="container" style="justify-content: center; width: 1030px; max-width: 1920px;">
-      <div class="row" style="justify-content: center;">
-        <div class="col-sm-11" style="text-align: center;">
-          <div class="title-box text-center">
-            <h3 class="title-a" style="color: white; font-family: 'Sora'; font-weight: 700;">
-              Clients
-            </h3>
-            <div class="line-mf"></div>
+            <img
+              src="img_vid/Espresso_Machine/Page1.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+            <img
+              src="img_vid/Espresso_Machine/Page2.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+            <video
+              width="100%"
+              height="100%"
+              padding-bottom="10px"
+              autoplay
+              loop
+              muted
+              controls="controls"
+            >
+              <source
+                src="img_vid/Espresso_Machine/Page3.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <img
+              src="img_vid/Espresso_Machine/Page4.jpg"
+              style="padding-bottom: 50px; width: 100%"
+              class="img-fluid"
+            />
+            <img
+              src="img_vid/Espresso_Machine/Page5.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+            <img
+              src="img_vid/Espresso_Machine/Page6.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
           </div>
         </div>
       </div>
 
-      <div id="brands" class="marquee1" style="background-color: rgba(255, 255, 255, 0);">
-        <div class="marquee__group">
-          <img src="clients/Wowlabz.png" alt="" class="img-fluid" style="height: 200px; width: 200px; border-radius: 50%;">
-          <img src="clients/xplorazzi.jpg" alt="" class="img-fluid" style="height: 200px; width: 200px; border-radius: 50%;">
-          <img src="clients/perfora.png" alt="" class="img-fluid" style="height: 200px; width: 200px; border-radius: 50%;">
-          <img src="img/post-1.jpg" alt="" class="img-fluid" style="height: 200px; width: 200px; border-radius: 50%;">
-          <img src="img/post-1.jpg" alt="" class="img-fluid" style="height: 200px; width: 200px; border-radius: 50%;">
+      <!-- modal 06 -->
+      <div
+        id="modal06"
+        class="w3-modal w3-animate-zoom"
+        style="background-color: black; z-index: 999999"
+      >
+        <div
+          onclick="document.getElementById('modal06').style.display='none'"
+          class="w3-button w3-hover-red w3-xlarge w3-display-topright circle"
+          data-dismiss="w3-modal"
+          style="
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin-right: 30px;
+            margin-top: 10px;
+            background-color: #818589;
+            color: black;
+            position: inherit;
+          "
+        >
+          <img
+            src="img/cross.png"
+            alt=""
+            class="img-fluid"
+            style="height: 30px; width: 40px"
+          />
         </div>
-        <div class="marquee__group">
-          <img src="clients/Wowlabz.png" alt="" class="img-fluid" style="height: 200px; width: 200px; border-radius: 50%;">
-          <img src="clients/xplorazzi.jpg" alt="" class="img-fluid" style="height: 200px; width: 200px; border-radius: 50%;">
-          <img src="clients/perfora.png" alt="" class="img-fluid" style="height: 200px; width: 200px; border-radius: 50%;">
-          <img src="img/post-1.jpg" alt="" class="img-fluid" style="height: 200px; width: 200px; border-radius: 50%;">
-          <img src="img/post-1.jpg" alt="" class="img-fluid" style="height: 200px; width: 200px; border-radius: 50%;">
-        </div>
-      </div>
-
-    </div>
-  </section>
-  <!--/ Section Blog End /-->
-
-
-  <!--/ Section Contact-Footer Star /-->
-  <section class="bg-image1 sect-mt4 route" style="margin-top: 0; background-image: url(bg_img/git_final_1.png); background-size: 1920px;">
-    <!-- background-position: center; background-position-y: 50px; background-size: 3000px; footer-paralax paralax-mf -->
-    <div class="overlay-mf1"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="contact-mf">
-            <div id="contact" class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="title-box-2">
-                    <h5 class="title-left" style="color: #2d2d2d; font-family: 'Sora'; font-weight: 700;">
-                      Contact Us
-                    </h5>
-                  </div>
-                  <div>
-                      <form onsubmit="sendEmail(); reset(); return false;" action="" method="post" role="form" class="contactForm_1">
-                      <div id="sendmessage" style="font-family: 'Sora'; font-weight: 400;">Your message has been sent. Thank you!</div>
-                      <div id="errormessage"></div>
-                      <div class="row">
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                            <!-- <div class="validation"></div> -->
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                            <!-- <div class="validation"></div> -->
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                              <!-- <div class="validation"></div> -->
-                            </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" id="message" placeholder="Message"></textarea>
-                            <!-- <div class="validation"></div> -->
-                          </div>
-                        </div>
-                        <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded" style="font-family: 'Sora'; font-weight: 600;">Send Message</button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="title-box-2 pt-4 pt-md-0">
-                    <h5 class="title-left" style="color: #2d2d2d; font-family: 'Sora'; font-weight: 700;">
-                      Get in Touch
-                    </h5>
-                  </div>
-                  <div class="more-info">
-                    <p class="lead" style="color: rgb(223, 223, 223); font-family: 'Sora'; font-weight: 400;">
-                      We're here to help and eager to hear from you. Whether you have questions, feedback, or just want to say hello, we're all ears. Don't hesitate to get in touch!
-                    </p>
-                    <ul class="list-ico">
-                      <li><span class="ion-ios-location" style="color: black;"></span> <span style="color: black; font-family: 'Sora'; font-weight: 400;">6/46 Bijoygarh, Kolkata - 700032</span></li>
-                      <li><span class="ion-ios-telephone" style="color: black;"></span> <span style="color: black; font-family: 'Sora'; font-weight: 400;">+91 8777694465</span></li>
-                      <li><span class="ion-email" style="color: black;"></span> <span style="color: black; font-family: 'Sora'; font-weight: 400;">arimanav007@gmail.com</span></li>
-                    </ul>
-                  </div>
-                  <div class="socials">
-                    <ul>
-                      <li><a href="https://www.linkedin.com/in/aritra-ghosh-02a8761a7/" target="_blank"><span class="ico-circle"><i class=""><img src="icons/linkedin.png" alt="" class="img-fluid" ></i></span></a></li>
-                      <li><a href="https://www.instagram.com/call_me_arizz/" target="_blank"><span class="ico-circle"><i class=""><img src="icons/instagram.png" alt="" class="img-fluid" ></i></span></a></li>
-                      <li><a href="https://www.artstation.com/aritraghosh" target="_blank"><span class="ico-circle"><i class=""><img src="icons/artstation_station.png" alt="" class="img-fluid" ></i></span></a></li>
-                      <li><a href="https://www.behance.net/arizzportfolio" target="_blank"><span class="ico-circle"><i class=""><img src="icons/behance.png" alt="" class="img-fluid" ></i></span></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="w3-modal-content w3-card-4" style="width: 1100px">
+          <div
+            class="w3-container w3-black"
+            style="padding-top: 10px; padding-bottom: 20px"
+          >
+            <img
+              src="img_vid/hand_bag/Page1.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+            <img
+              src="img_vid/hand_bag/Page2.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+            <img
+              src="img_vid/hand_bag/Page3.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+            <video
+              width="100%"
+              height="100%"
+              padding-bottom="10px"
+              autoplay
+              loop
+              muted
+              controls="controls"
+            >
+              <source src="img_vid/hand_bag/Page4.mp4" type="video/mp4" />
+            </video>
+            <img
+              src="img_vid/hand_bag/Page5.jpg"
+              style="padding-bottom: 50px; width: 100%"
+              class="img-fluid"
+            />
+            <img
+              src="img_vid/hand_bag/Page6.gif"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+            <img
+              src="img_vid/hand_bag/Page7.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+            <img
+              src="img_vid/hand_bag/Page8.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
           </div>
         </div>
       </div>
-    </div>
-  </section>
 
-  <section style="background-image: url(bg_img/black_screen.png);">
-    <footer>
-      <div class="container" style="padding-top: 30px;">
+      <!-- modal 07 -->
+      <div
+        id="modal07"
+        class="w3-modal w3-animate-zoom"
+        style="background-color: black; z-index: 999999"
+      >
+        <div
+          onclick="document.getElementById('modal07').style.display='none'"
+          class="w3-button w3-hover-red w3-xlarge w3-display-topright circle"
+          data-dismiss="w3-modal"
+          style="
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin-right: 30px;
+            margin-top: 10px;
+            background-color: #818589;
+            color: black;
+            position: inherit;
+          "
+        >
+          <img
+            src="img/cross.png"
+            alt=""
+            class="img-fluid"
+            style="height: 30px; width: 40px"
+          />
+        </div>
+        <div class="w3-modal-content w3-card-4" style="width: 1100px">
+          <div
+            class="w3-container w3-black"
+            style="padding-top: 10px; padding-bottom: 20px"
+          >
+            <img
+              src="img_vid/Face_wash/Page1.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+            <video
+              width="100%"
+              height="100%"
+              padding-bottom="10px"
+              autoplay
+              loop
+              muted
+              controls="controls"
+            >
+              <source src="img_vid/Face_wash/Page2.mp4" type="video/mp4" />
+            </video>
+            <img
+              src="img_vid/Face_wash/Page3.jpg"
+              style="padding-bottom: 50px; width: 100%"
+              class="img-fluid"
+            />
+            <img
+              src="img_vid/Face_wash/Page4.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+            <img
+              src="img_vid/Face_wash/Page5.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+            <img
+              src="img_vid/Face_wash/Page6.jpg"
+              style="padding-bottom: 10px; width: 100%"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ Section Portfolio End /-->
+
+    <!--/ Section Testimonials Star /-->
+    <div
+      class="testimonials paralax-mf bg-image"
+      style="height: fit-content; background-image: url(bg_img/ssbg_opt.jpg)"
+    >
+      <div class="overlay-mf"></div>
+
+      <div class="container" style="margin-top: 5px">
         <div class="row">
           <div class="col-sm-12">
-            <div class="copyright-box">
-              <p class="copyright" style="color: rgb(255, 255, 255);">&copy; Copyright <strong>Aritra Ghosh</strong>. All Rights Reserved</p>
-              <div class="credits" style="color: rgb(255, 255, 255);">
-                Developed by <a href="" style="color: rgb(255, 255, 255);">Sagnik Chakraborty</a>
+            <div class="title-box text-center" style="margin-bottom: 10px">
+              <h3
+                class="title-a"
+                style="color: white; font-family: 'Sora'; font-weight: 700"
+              >
+                Testimonials
+              </h3>
+              <div class="line-mf" style="color: white"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container reveal">
+        <div class="row">
+          <div class="col-md-12">
+            <div
+              id="testimonial-mf1"
+              class="owl-carousel owl-theme owl-loaded owl-drag"
+            >
+              <div class="testimonial-box">
+                <div class="author-test">
+                  <img
+                    src="clients_testimonials/Raja_Rai.png"
+                    style="height: 200px; width: 200px"
+                    alt=""
+                    class="rounded-circle b-shadow-a"
+                  />
+                  <span class="author">RAJA RAI</span>
+                  <span
+                    style="
+                      font-family: 'Sora';
+                      font-size: 20px;
+                      color: rgb(202, 202, 202);
+                    "
+                    >Senior 3D Artist - Xplorazzi</span
+                  >
+                </div>
+                <div class="content-test">
+                  <p class="description lead">
+                    It is with great pleasure that I share my experiences
+                    working alongside our talented intern 3D artist, Arizz. In
+                    the duration of their internship, Arizz has proven to be a
+                    valuable asset to our team, showcasing not only a strong
+                    foundation in 3D artistry but also an eagerness to learn and
+                    grow.
+                  </p>
+                </div>
+              </div>
+
+              <div class="testimonial-box">
+                <div class="author-test">
+                  <img
+                    src="clients_testimonials/Faraz_Ahmad.png"
+                    style="height: 200px; width: 200px"
+                    alt=""
+                    class="rounded-circle b-shadow-a"
+                  />
+                  <span class="author">FARAZ AHMAD</span>
+                  <span
+                    style="
+                      font-family: 'Sora';
+                      font-size: 20px;
+                      color: rgb(202, 202, 202);
+                    "
+                    >Founder - Sofaab</span
+                  >
+                </div>
+                <div class="content-test">
+                  <p class="description lead">
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                    sem. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit.
+                  </p>
+                </div>
+              </div>
+
+              <div class="testimonial-box">
+                <div class="author-test">
+                  <img
+                    src="clients_testimonials/Vinay_Vidyasagar.png"
+                    style="height: 200px; width: 200px"
+                    alt=""
+                    class="rounded-circle b-shadow-a"
+                  />
+                  <span class="author">VINAY VIDYASAGAR</span>
+                  <span
+                    style="
+                      font-family: 'Sora';
+                      font-size: 20px;
+                      color: rgb(202, 202, 202);
+                    "
+                    >Senior Game Developer - Wowlabz</span
+                  >
+                </div>
+                <div class="content-test">
+                  <p class="description lead">
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                    sem. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-  </section>
-  <!--/ Section Contact-footer End /-->
+    </div>
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <div id="preloader"></div>
+    <!--/ Section Clients /-->
+    <section
+      id="blog"
+      class="blog-mf sect-pt4 route"
+      style="
+        background-image: url(bg_img/Clients_final_2.PNG);
+        background-position: center center;
+        background-size: 1920px;
+        height: 600px;
+        justify-content: center;
+        justify-items: center;
+      "
+    >
+      <div
+        class="container"
+        style="justify-content: center; width: 1030px; max-width: 1920px"
+      >
+        <div class="row" style="justify-content: center">
+          <div class="col-sm-11" style="text-align: center">
+            <div class="title-box text-center">
+              <h3
+                class="title-a"
+                style="color: white; font-family: 'Sora'; font-weight: 700"
+              >
+                Clients
+              </h3>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
 
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/popper/popper.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/counterup/jquery.waypoints.min.js"></script>
-  <script src="lib/counterup/jquery.counterup.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/typed/typed.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/typed/typed.js"></script>
-  <script src="js/scrollfade-0.1.js"></script>
+        <div
+          id="brands"
+          class="marquee1"
+          style="background-color: rgba(255, 255, 255, 0)"
+        >
+          <div class="marquee__group">
+            <img
+              src="clients/Wowlabz.png"
+              alt=""
+              class="img-fluid"
+              style="height: 200px; width: 200px; border-radius: 50%"
+            />
+            <img
+              src="clients/xplorazzi.jpg"
+              alt=""
+              class="img-fluid"
+              style="height: 200px; width: 200px; border-radius: 50%"
+            />
+            <img
+              src="clients/perfora.png"
+              alt=""
+              class="img-fluid"
+              style="height: 200px; width: 200px; border-radius: 50%"
+            />
+            <img
+              src="img/post-1.jpg"
+              alt=""
+              class="img-fluid"
+              style="height: 200px; width: 200px; border-radius: 50%"
+            />
+            <img
+              src="img/post-1.jpg"
+              alt=""
+              class="img-fluid"
+              style="height: 200px; width: 200px; border-radius: 50%"
+            />
+          </div>
+          <div class="marquee__group">
+            <img
+              src="clients/Wowlabz.png"
+              alt=""
+              class="img-fluid"
+              style="height: 200px; width: 200px; border-radius: 50%"
+            />
+            <img
+              src="clients/xplorazzi.jpg"
+              alt=""
+              class="img-fluid"
+              style="height: 200px; width: 200px; border-radius: 50%"
+            />
+            <img
+              src="clients/perfora.png"
+              alt=""
+              class="img-fluid"
+              style="height: 200px; width: 200px; border-radius: 50%"
+            />
+            <img
+              src="img/post-1.jpg"
+              alt=""
+              class="img-fluid"
+              style="height: 200px; width: 200px; border-radius: 50%"
+            />
+            <img
+              src="img/post-1.jpg"
+              alt=""
+              class="img-fluid"
+              style="height: 200px; width: 200px; border-radius: 50%"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ Section Blog End /-->
 
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+    <!--/ Section Contact-Footer Star /-->
+    <section
+      class="bg-image1 sect-mt4 route"
+      style="
+        margin-top: 0;
+        background-image: url(bg_img/git_final_1.png);
+        background-size: 1920px;
+      "
+    >
+      <!-- background-position: center; background-position-y: 50px; background-size: 3000px; footer-paralax paralax-mf -->
+      <div class="overlay-mf1"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="title-box-2">
+                      <h5
+                        class="title-left"
+                        style="
+                          color: #2d2d2d;
+                          font-family: 'Sora';
+                          font-weight: 700;
+                        "
+                      >
+                        Contact Us
+                      </h5>
+                    </div>
+                    <div>
+                      <form
+                        onsubmit="sendEmail(); reset(); return false;"
+                        action=""
+                        method="post"
+                        role="form"
+                        class="contactForm_1"
+                      >
+                        <div
+                          id="sendmessage"
+                          style="font-family: 'Sora'; font-weight: 400"
+                        >
+                          Your message has been sent. Thank you!
+                        </div>
+                        <div id="errormessage"></div>
+                        <div class="row">
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input
+                                type="text"
+                                name="name"
+                                class="form-control"
+                                id="name"
+                                placeholder="Your Name"
+                                data-rule="minlen:4"
+                                data-msg="Please enter at least 4 chars"
+                              />
+                              <!-- <div class="validation"></div> -->
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input
+                                type="email"
+                                class="form-control"
+                                name="email"
+                                id="email"
+                                placeholder="Your Email"
+                                data-rule="email"
+                                data-msg="Please enter a valid email"
+                              />
+                              <!-- <div class="validation"></div> -->
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="subject"
+                                id="subject"
+                                placeholder="Subject"
+                                data-rule="minlen:4"
+                                data-msg="Please enter at least 8 chars of subject"
+                              />
+                              <!-- <div class="validation"></div> -->
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <textarea
+                                class="form-control"
+                                name="message"
+                                rows="5"
+                                data-rule="required"
+                                data-msg="Please write something for us"
+                                id="message"
+                                placeholder="Message"
+                              ></textarea>
+                              <!-- <div class="validation"></div> -->
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <button
+                              type="submit"
+                              class="button button-a button-big button-rouded"
+                              style="font-family: 'Sora'; font-weight: 600"
+                            >
+                              Send Message
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="title-box-2 pt-4 pt-md-0">
+                      <h5
+                        class="title-left"
+                        style="
+                          color: #2d2d2d;
+                          font-family: 'Sora';
+                          font-weight: 700;
+                        "
+                      >
+                        Get in Touch
+                      </h5>
+                    </div>
+                    <div class="more-info">
+                      <p
+                        class="lead"
+                        style="
+                          color: rgb(223, 223, 223);
+                          font-family: 'Sora';
+                          font-weight: 400;
+                        "
+                      >
+                        We're here to help and eager to hear from you. Whether
+                        you have questions, feedback, or just want to say hello,
+                        we're all ears. Don't hesitate to get in touch!
+                      </p>
+                      <ul class="list-ico">
+                        <li>
+                          <span
+                            class="ion-ios-location"
+                            style="color: black"
+                          ></span>
+                          <span
+                            style="
+                              color: black;
+                              font-family: 'Sora';
+                              font-weight: 400;
+                            "
+                            >6/46 Bijoygarh, Kolkata - 700032</span
+                          >
+                        </li>
+                        <li>
+                          <span
+                            class="ion-ios-telephone"
+                            style="color: black"
+                          ></span>
+                          <span
+                            style="
+                              color: black;
+                              font-family: 'Sora';
+                              font-weight: 400;
+                            "
+                            >+91 8777694465</span
+                          >
+                        </li>
+                        <li>
+                          <span class="ion-email" style="color: black"></span>
+                          <span
+                            style="
+                              color: black;
+                              font-family: 'Sora';
+                              font-weight: 400;
+                            "
+                            >arimanav007@gmail.com</span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="socials">
+                      <ul>
+                        <li>
+                          <a
+                            href="https://www.linkedin.com/in/aritra-ghosh-02a8761a7/"
+                            target="_blank"
+                            ><span class="ico-circle"
+                              ><i class=""
+                                ><img
+                                  src="icons/linkedin.png"
+                                  alt=""
+                                  class="img-fluid" /></i></span
+                          ></a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://www.instagram.com/call_me_arizz/"
+                            target="_blank"
+                            ><span class="ico-circle"
+                              ><i class=""
+                                ><img
+                                  src="icons/instagram.png"
+                                  alt=""
+                                  class="img-fluid" /></i></span
+                          ></a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://www.artstation.com/aritraghosh"
+                            target="_blank"
+                            ><span class="ico-circle"
+                              ><i class=""
+                                ><img
+                                  src="icons/artstation_station.png"
+                                  alt=""
+                                  class="img-fluid" /></i></span
+                          ></a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://www.behance.net/arizzportfolio"
+                            target="_blank"
+                            ><span class="ico-circle"
+                              ><i class=""
+                                ><img
+                                  src="icons/behance.png"
+                                  alt=""
+                                  class="img-fluid" /></i></span
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+    <section style="background-image: url(bg_img/black_screen.png)">
+      <footer>
+        <div class="container" style="padding-top: 30px">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="copyright-box">
+                <p class="copyright" style="color: rgb(255, 255, 255)">
+                  &copy; Copyright <strong>Aritra Ghosh</strong>. All Rights
+                  Reserved
+                </p>
+                <div class="credits" style="color: rgb(255, 255, 255)">
+                  Developed by
+                  <a href="" style="color: rgb(255, 255, 255)"
+                    >Sagnik Chakraborty</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!--/ Section Contact-footer End /-->
 
-  <!-- SMTP Email Sending -->
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <div id="preloader"></div>
 
-  <script>
-    function sendEmail() {
-      
-      // 77b5d10b-9ebf-41f8-8abe-bbfc7d1eee73
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/popper/popper.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/counterup/jquery.waypoints.min.js"></script>
+    <script src="lib/counterup/jquery.counterup.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.js"></script>
+    <script src="js/scrollfade-0.1.js"></script>
 
-      Email.send({
+    <!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
+
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
+
+    <!-- SMTP Email Sending -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+      function sendEmail() {
+        // 77b5d10b-9ebf-41f8-8abe-bbfc7d1eee73
+
+        Email.send({
           SecureToken: "59b48717-dbc5-41d6-89eb-08edd648d665",
-          To : 'arimanav007@gmail.com',
-          From : "arimanav007@gmail.com",
-          Subject : document.getElementById("subject").value,
-          Body : "Message from Portfolio:<br>" + "NAME: " + document.getElementById("name").value
-                + "<br>EMAIL: " + document.getElementById("email").value
-                + "<br>MESSAGE: " + document.getElementById("message").value
-      }).then(
-        message => alert("Thank You for your message! I will get back as soon as possible!!")
-);
-    }
-  </script>
-
-</body>
+          To: "arimanav007@gmail.com",
+          From: "arimanav007@gmail.com",
+          Subject: document.getElementById("subject").value,
+          Body:
+            "Message from Portfolio:<br>" +
+            "NAME: " +
+            document.getElementById("name").value +
+            "<br>EMAIL: " +
+            document.getElementById("email").value +
+            "<br>MESSAGE: " +
+            document.getElementById("message").value,
+        }).then((message) =>
+          alert(
+            "Thank You for your message! I will get back as soon as possible!!"
+          )
+        );
+      }
+    </script>
+  </body>
 </html>
