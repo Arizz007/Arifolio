@@ -745,6 +745,11 @@ a:hover {
   background-color: #0078ff;
 }
 
+/* Saturate About Section on hover */
+#about:hover {
+  filter: saturate(1);
+}
+
 /*======================================
 //--//-->   SERVICES
 ======================================*/
