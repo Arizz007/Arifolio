@@ -171,14 +171,16 @@
     <!--/ Intro Skew End /-->
 
     <section
-      id="about"
+      id="about-section"
       class="about-mf sect-pt4 route"
       style="
         background-attachment: local;
-        background-image: url(bg_img/Vector_bg.jpg);
       "
     >
-      <div class="container" style="position: relative; display: flex">
+      <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div>
+      <div class="container" style="position: relative; display: flex; margin-top: 150px;">
         <div class="row">
           <div class="col-sm-12">
             <div 
@@ -214,7 +216,7 @@
                           <span
                             class="title-s"
                             style="
-                              color: #343434;
+                              color: white;
                               font-weight: 600;
                               font-size: 16px;
                             "
@@ -222,7 +224,7 @@
                           </span>
                           <span
                             style="
-                              color: #343434;
+                              color: white;
                               font-size: 16px;
                               font-weight: 400;
                             "
@@ -234,7 +236,7 @@
                           <span
                             class="title-s"
                             style="
-                              color: #343434;
+                              color: white;
                               font-weight: 600;
                               font-size: 16px;
                             "
@@ -242,7 +244,7 @@
                           </span>
                           <span
                             style="
-                              color: #343434;
+                              color: white;
                               font-size: 16px;
                               font-weight: 400;
                             "
@@ -254,7 +256,7 @@
                           <span
                             class="title-s"
                             style="
-                              color: #343434;
+                              color: white;
                               font-weight: 600;
                               font-size: 16px;
                             "
@@ -262,7 +264,7 @@
                           </span>
                           <span
                             style="
-                              color: #343434;
+                              color: white;
                               font-size: 16px;
                               font-weight: 400;
                             "
@@ -274,7 +276,7 @@
                           <span
                             class="title-s"
                             style="
-                              color: #343434;
+                              color: white;
                               font-weight: 600;
                               font-size: 16px;
                             "
@@ -282,7 +284,7 @@
                           </span>
                           <span
                             style="
-                              color: #343434;
+                              color: white;
                               font-size: 16px;
                               font-weight: 400;
                             "
@@ -334,6 +336,7 @@
                           text-align: center;
                           font-family: 'Sora';
                           font-weight: 600;
+                          color: white;
                         "
                       >
                         About me
@@ -344,7 +347,7 @@
                       style="
                         font-size: 15px;
                         text-align: center;
-                        color: #343434;
+                        color: white;
                         font-family: 'Sora';
                         font-weight: 400;
                       "
@@ -362,7 +365,7 @@
                       style="
                         font-size: 15px;
                         text-align: center;
-                        color: #343434;
+                        color: white;
                         font-family: 'Sora';
                         font-weight: 400;
                       "
@@ -388,7 +391,7 @@
 
     <div
       class="testimonials paralax-mf bg-image"
-      style="background-image: url(bg_img/ssbg_opt.jpg)"
+      style="background-color: black"
     >
       <div class="overlay-mf"></div>
 
@@ -653,8 +656,8 @@
       id="service"
       class="services-mf route"
       style="
-        background-image: url(bg_img/Services_bg2_opt.jpg);
         padding-top: 30px;
+        background-color: black;"
       "
     >
       <div class="container">
@@ -667,7 +670,7 @@
               >
                 Services
               </h3>
-              <div class="line-mf" style="color: white"></div>
+              <div class="line-mf" style="background-color: white"></div>
             </div>
           </div>
         </div>
@@ -676,7 +679,7 @@
             <div class="tilting-card-content">
               <div
                 class="service-box"
-                style="background-image: url(bg_img/Scbg_opt.jpg)"
+                style="background-image: url(bg_img/Scbg_opt.jpg);"
               >
                 <div class="service-ico">
                   <span class="ico-circle"
@@ -964,7 +967,7 @@
 
     <div
       class="section-counter paralax-mf bg-image"
-      style="background-image: url(img/counters-bg.jpg)"
+      style="background-color: black"
     >
       <div class="overlay-mf"></div>
 
@@ -1111,13 +1114,33 @@
         height: fit-content;
       "
     >
+      <div style="margin-bottom: 0px; background: linear-gradient(60deg, rgba(33,37,41,1) 0%, rgba(0,0,0,1) 100%);">
       <!-- <div class="overlay-mf glass" style="z-index: 10;"></div> -->
       <div class="overlay-mf" style="z-index: -999999999"></div>
+      <div class="header">
+
+      <div class="inner-header flex"></div>
+
       <div
         id="cont"
         class="container glass"
-        style="margin-top: 40px; border-radius: 4px"
+        style="margin-top: 100px; border-radius: 4px"
       >
+
+        <!--<div>
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+        </g>
+        </svg>-->
+
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box text-center" style="margin-bottom: 30px">
@@ -1712,7 +1735,12 @@
             </div>
           </div>
         </div>
-      </div>
+      
+        <!--</div>-->
+        </div>
+
+       </div>
+       <div/>
 
       <!-- modal 01 -->
       <div
@@ -2776,7 +2804,7 @@
     <!--/ Section Testimonials Star /-->
     <div
       class="testimonials paralax-mf bg-image"
-      style="height: fit-content; background-image: url(bg_img/ssbg_opt.jpg)"
+      style="height: fit-content; background-color: black"
     >
       <div class="overlay-mf"></div>
 
@@ -2925,7 +2953,7 @@
       id="blog"
       class="blog-mf sect-pt4 route"
       style="
-        background-image: url(bg_img/Clients_final_2.PNG);
+        background-color: white;
         background-position: center center;
         background-size: 1920px;
         height: 600px;
@@ -2935,18 +2963,19 @@
     >
       <div
         class="container"
-        style="justify-content: center; width: 1030px; max-width: 1920px"
+        style="justify-content: center; width: 1030px; max-width: 1920px; height: fit-content"
+        id="clients-section"
       >
         <div class="row" style="justify-content: center">
           <div class="col-sm-11" style="text-align: center">
-            <div class="title-box text-center">
+            <div class="title-box text-center" style="margin-bottom: 100px; margin-top: 100px;">
               <h3
                 class="title-a"
-                style="color: white; font-family: 'Sora'; font-weight: 700"
+                style="color: black; font-family: 'Sora'; font-weight: 700"
               >
                 Clients
               </h3>
-              <div class="line-mf"></div>
+              <div class="line-mf" style="background-color: black;"></div>
             </div>
           </div>
         </div>
@@ -2954,80 +2983,70 @@
         <div
           id="brands"
           class="marquee1"
-          style="background-color: rgba(255, 255, 255, 0)"
+          style="background-color: rgba(134, 40, 40, 0)"
         >
           <div class="marquee__group">
             <img
-              src="clients/Wowlabz.png"
+              src="clients/Bajaj_color.png"
               alt=""
               class="img-fluid"
-              style="height: 200px; width: 200px; border-radius: 50%"
-              loading="lazy"
+              style="height: 200px; width: 200px"
             />
             <img
-              src="clients/xplorazzi.jpg"
+              src="clients/sofaab_grayscale.png"
               alt=""
               class="img-fluid"
-              style="height: 200px; width: 200px; border-radius: 50%"
-              loading="lazy"
+              style="height: 200px; width: 200px"
             />
             <img
-              src="clients/perfora.png"
+              src="clients/Upwork_color.png"
               alt=""
               class="img-fluid"
-              style="height: 200px; width: 200px; border-radius: 50%"
-              loading="lazy"
+              style="height: 200px; width: 200px"
             />
             <img
-              src="img/post-1.jpg"
+              src="clients/Wav_color.png"
               alt=""
               class="img-fluid"
-              style="height: 200px; width: 200px; border-radius: 50%"
-              loading="lazy"
+              style="height: 200px; width: 200px"
             />
             <img
-              src="img/post-1.jpg"
+              src="clients/Wowlabz_color.png"
               alt=""
               class="img-fluid"
-              style="height: 200px; width: 200px; border-radius: 50%"
-              loading="lazy"
+              style="height: 200px; width: 200px"
             />
           </div>
           <div class="marquee__group">
             <img
-              src="clients/Wowlabz.png"
+              src="clients/Bajaj_color.png"
               alt=""
               class="img-fluid"
-              style="height: 200px; width: 200px; border-radius: 50%"
-              loading="lazy"
+              style="height: 200px; width: 200px"
             />
             <img
-              src="clients/xplorazzi.jpg"
+              src="clients/sofaab_grayscale.png"
               alt=""
               class="img-fluid"
-              style="height: 200px; width: 200px; border-radius: 50%"
-              loading="lazy"
+              style="height: 200px; width: 200px"
             />
             <img
-              src="clients/perfora.png"
+              src="clients/Upwork_color.png"
               alt=""
               class="img-fluid"
-              style="height: 200px; width: 200px; border-radius: 50%"
-              loading="lazy"
+              style="height: 200px; width: 200px"
             />
             <img
-              src="img/post-1.jpg"
+              src="clients/Wav_color.png"
               alt=""
               class="img-fluid"
-              style="height: 200px; width: 200px; border-radius: 50%"
-              loading="lazy"
+              style="height: 200px; width: 200px"
             />
             <img
-              src="img/post-1.jpg"
+              src="clients/Wowlabz_color.png"
               alt=""
               class="img-fluid"
-              style="height: 200px; width: 200px; border-radius: 50%"
-              loading="lazy"
+              style="height: 200px; width: 200px"
             />
           </div>
         </div>
@@ -3040,8 +3059,9 @@
       class="bg-image1 sect-mt4 route"
       style="
         margin-top: 0;
-        background-image: url(bg_img/git_final_1.png);
         background-size: 1920px;
+        opacity: 1;
+        background-color: #3c3c3c;
       "
     >
       <!-- background-position: center; background-position-y: 50px; background-size: 3000px; footer-paralax paralax-mf -->
@@ -3057,7 +3077,7 @@
                       <h5
                         class="title-left"
                         style="
-                          color: #2d2d2d;
+                          color: #111111;
                           font-family: 'Sora';
                           font-weight: 700;
                         "
@@ -3155,7 +3175,7 @@
                       <h5
                         class="title-left"
                         style="
-                          color: #2d2d2d;
+                          color: #111111;
                           font-family: 'Sora';
                           font-weight: 700;
                         "
@@ -3283,7 +3303,7 @@
       </div>
     </section>
 
-    <section style="background-image: url(bg_img/black_screen.png)">
+    <section style="background-color: black">
       <footer>
         <div class="container" style="padding-top: 30px">
           <div class="row">
