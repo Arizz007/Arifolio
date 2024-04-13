@@ -10,3 +10,4 @@
     - FA: Feature Addition
     - HK: Housekeeping
     - LC: Layout Change
+    - LG: Logo Change/Update
