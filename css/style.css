@@ -63,7 +63,7 @@ a:hover {
 
 .box-shadow-a,
 .button:hover {
-  box-shadow: 0 0 0 4px #cde1f8;
+  box-shadow: 0 0 0 4px #ADB5BD;
 }
 
 .display-5 {
@@ -219,11 +219,26 @@ a:hover {
   position: relative;
 }
 
+.title-left-1 {
+  font-size: 2rem;
+  position: relative;
+}
+
 .title-left:before {
   content: '';
   position: absolute;
   height: 3px;
   background-color: white;
+  margin-left: 10px;
+  width: 100px;
+  bottom: -12px;
+}
+
+.title-left-1:before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  background-color: black;
   margin-left: 10px;
   width: 100px;
   bottom: -12px;
@@ -1207,14 +1222,14 @@ footer .credits a {
 
 .button:hover {
   background-color: #000000;
-  color: #fff;
+  color: #ADB5BD;
   transition: all 500ms ease;
 }
 
 .button-a {
   background-color: #000000;
   color: #fff;
-  border-color: #cde1f8;
+  border-color: #ADB5BD;
 }
 
 .button-big {
@@ -1902,7 +1917,7 @@ img {
 .header {
   position: sticky;
   text-align:center;
-  background: linear-gradient(60deg, rgba(33,37,41,1) 0%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(0,0,0,1) 100%);
   color:white;
 }
 
